@@ -1,0 +1,6 @@
+.vscode
+
+# pyenv
+.python-version
+__pycache__
+*.egg-info

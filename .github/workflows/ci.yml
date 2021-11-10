@@ -1,0 +1,11 @@
+name: eeacms/plone-backend
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build & Test Plone
+      run: |
+        docker build -t eeacms/plone-backend:dev .
+        ./test/run.sh eeacms/plone-backend:dev
