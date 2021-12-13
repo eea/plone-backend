@@ -1,4 +1,7 @@
 -f https://eggrepo.eea.europa.eu/simple/
+# Develop
+mxdev==1.0.0
+
 # KitKat
 eea.kitkat==1.4
 
@@ -8,6 +11,6 @@ eea.api.layout==3.2
 eea.schema.slate==1.2
 eea.geolocation==2.1
 eea.sentry==2.3
-collective.taxonomy==2.1.1
+collective.taxonomy==2.2.0
 eea.api.taxonomy==1.5
 eea.volto.policy==1.7
