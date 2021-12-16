@@ -4,3 +4,11 @@
 .python-version
 __pycache__
 *.egg-info
+
+# mxdev
+.make-sentinels/
+constraints-mxdev.txt
+requirements-mxdev.txt
+setup.cfg
+sources/
+venv/

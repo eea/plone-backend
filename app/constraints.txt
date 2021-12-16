@@ -6,11 +6,12 @@ mxdev==1.0.0
 eea.kitkat==1.4
 
 # Required by eea.kitkat
-eea.zotero==1.4
-eea.api.layout==3.2
-eea.schema.slate==1.2
-eea.geolocation==2.1
-eea.sentry==2.3
 collective.taxonomy==2.2.0
+eea.api.layout==3.2
 eea.api.taxonomy==1.5
+eea.cache==9.5
+eea.geolocation==2.1
+eea.schema.slate==1.2
+eea.sentry==2.3
 eea.volto.policy==1.7
+eea.zotero==1.4
