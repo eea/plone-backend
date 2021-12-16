@@ -3,7 +3,7 @@
 mxdev==1.0.0
 
 # KitKat
-eea.kitkat==1.4
+eea.kitkat==1.5
 
 # Required by eea.kitkat
 collective.taxonomy==2.2.0
