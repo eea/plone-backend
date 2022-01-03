@@ -3,7 +3,8 @@ FROM base as builder
 
 ENV PLONE_VERSION=6.0.0a2 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
-    GRAYLOG_FACILITY=plone-backend
+    GRAYLOG_FACILITY=plone-backend \
+    PROFILES=eea.kitkat:default
 
 RUN apt-get update \
     && buildDeps="build-essential" \
@@ -17,7 +18,8 @@ FROM base
 
 ENV PLONE_VERSION=6.0.0a2 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
-    GRAYLOG_FACILITY=plone-backend
+    GRAYLOG_FACILITY=plone-backend \
+    PROFILES=eea.kitkat:default
 
 COPY --from=builder /wheelhouse /wheelhouse
 
