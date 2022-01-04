@@ -8,7 +8,6 @@ globalTests+=(
 imageTests+=(
 	[eeacms/plone-backend]='
 		plone-basics
-		plone-develop
 		plone-site
 		plone-addons
 		plone-arbitrary-user
