@@ -1,4 +1,4 @@
-# Plone 6 (pip) based with RelStorage, RestAPI, Memcached, Graylog, Sentry support (and more)
+# Plone 5 (pip) based with RelStorage, RestAPI, Memcached, Graylog, Sentry support (and more)
 
 [![Build Status](https://ci.eionet.europa.eu/buildStatus/icon?job=volto/plone-backend/master&subject=Build)](https://ci.eionet.europa.eu/blue/organizations/jenkins/volto%2Fplone-backend/activity/)
 [![Release](https://img.shields.io/github/v/release/eea/plone-backend)](https://github.com/eea/plone-backend/releases)
