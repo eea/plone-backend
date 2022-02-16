@@ -9,7 +9,7 @@ eea.kitkat==1.5
 collective.taxonomy==2.2.0
 eea.api.layout==3.2
 eea.api.taxonomy==1.5
-eea.banner==1.0
+eea.banner==1.1
 eea.cache==9.5
 eea.geolocation==2.1
 eea.schema.slate==1.2
