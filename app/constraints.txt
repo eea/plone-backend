@@ -3,13 +3,13 @@
 mxdev==1.0.0
 
 # KitKat
-eea.kitkat==1.5
+eea.kitkat==1.6
 
 # Required by eea.kitkat
 collective.taxonomy==2.2.0
 eea.api.layout==3.2
 eea.api.taxonomy==1.5
-eea.banner==1.1
+eea.banner==1.2
 eea.cache==9.5
 eea.geolocation==2.1
 eea.schema.slate==1.2
