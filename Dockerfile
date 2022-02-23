@@ -11,7 +11,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends $buildDeps\
     && rm -rf /var/lib/apt/lists/* /usr/share/doc
 
-COPY app/ /app/
+COPY requirements.txt constraints.txt /app/
 RUN pip wheel -r requirements.txt -c constraints.txt -c https://dist.plone.org/release/$PLONE_VERSION/constraints.txt --wheel-dir=/wheelhouse ${PIP_PARAMS}
 
 FROM base
