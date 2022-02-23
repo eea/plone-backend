@@ -83,6 +83,7 @@ and then run
 
     $ docker build -t eeacms/custom-backend .
 
+See for example [EEA Main Website backend (Plone 6)](https://github.com/eea/eea-website-backend)
 
 ## Supported environment variables
 
@@ -99,6 +100,14 @@ See `plone/plone-backend` [Configuration Variables](https://github.com/plone/plo
 * `SENTRY_SITE`, `SERVER_NAME` Add site tag to Sentry logs (e.g.: `SENTRY_SITE=foo.example.com`)
 * `SENTRY_RELEASE` Add release tag to Sentry logs (e.g.: `SENTRY_RELEASE=5.1.5-34`)
 * `SENTRY_ENVIRONMENT` Add environment tag to Sentry logs. Leave empty to automatically get it from `rancher-metadata` (e.g.: `SENTRY_ENVIRONMENT=staging`)
+
+## Develop
+
+See [develop](https://github.com/eea/plone-backend/tree/master/develop)
+
+## Release
+
+See [release](https://github.com/eea/plone-backend/tree/master/RELEASE.md)
 
 ## Copyright and license
 
