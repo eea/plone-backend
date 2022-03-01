@@ -7,7 +7,7 @@ ENV PLONE_VERSION=6.0.0a3 \
     PROFILES=eea.kitkat:default
 
 RUN apt-get update \
-    && buildDeps="build-essential" \
+    && buildDeps="build-essential libldap2-dev libsasl2-dev" \
     && apt-get install -y --no-install-recommends $buildDeps\
     && rm -rf /var/lib/apt/lists/* /usr/share/doc
 
