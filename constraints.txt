@@ -3,7 +3,7 @@
 mxdev==2.0.0
 
 # Plone
-pas.plugins.ldap = 1.8.1
+pas.plugins.ldap==1.8.1
 
 # KitKat
 eea.kitkat==1.7
