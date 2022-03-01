@@ -1,2 +1,3 @@
+pas.plugins.ldap
 eea.kitkat
 mxdev
