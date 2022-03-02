@@ -1,0 +1,1 @@
+major=$(grep 'FROM .*:.* as base' Dockerfile |  grep -Eo '[0-9]+\.[0-9]+\.[0-9]+');let minor=$(git describe --tags --abbrev=0 2>/dev/null 2>/dev/null | grep -E $major-[0-9]+ | cut -d- -f2 )+1; echo $major-$minor
