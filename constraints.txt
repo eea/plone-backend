@@ -2,10 +2,11 @@
 # Develop
 mxdev==2.0.0
 
-# Plone
+# Plone pluggable authentication services
 pas.plugins.ldap==1.8.1
+pas.plugins.oidc==1.0
 
-# KitKat
+# EEA KitKat bundle
 eea.kitkat==1.7
 
 # Required by eea.kitkat
