@@ -7,7 +7,7 @@ pas.plugins.ldap==1.8.1
 pas.plugins.oidc==1.1
 
 # EEA KitKat bundle
-eea.kitkat==1.7
+eea.kitkat==1.8
 
 # Required by eea.kitkat
 collective.taxonomy==2.2.0
