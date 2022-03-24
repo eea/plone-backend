@@ -10,7 +10,7 @@ pas.plugins.oidc==1.1
 eea.kitkat==1.8
 
 # Required by eea.kitkat
-collective.taxonomy==2.2.0
+collective.taxonomy==2.2.1
 eea.api.layout==3.2
 eea.api.taxonomy==1.5
 eea.banner==1.3
