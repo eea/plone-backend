@@ -35,7 +35,7 @@ dnspython==2.2.0
 eventlet==0.33.0
 five.globalrequest==99.1
 greenlet==1.1.2
-libvcs==0.11.0
+libvcs==0.11.1
 node==0.9.28
 node.ext.ldap==1.0rc2
 node.ext.ugm==0.9.13
