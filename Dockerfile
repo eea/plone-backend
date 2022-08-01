@@ -1,7 +1,7 @@
-FROM plone/plone-backend:6.0.0a6 as base
+FROM plone/plone-backend:6.0.0b1 as base
 FROM base as builder
 
-ENV PLONE_VERSION=6.0.0a6 \
+ENV PLONE_VERSION=6.0.0b1 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
     PROFILES=eea.kitkat:default
@@ -16,7 +16,7 @@ RUN pip wheel -r requirements.txt -c constraints.txt -c https://dist.plone.org/r
 
 FROM base
 
-ENV PLONE_VERSION=6.0.0a6 \
+ENV PLONE_VERSION=6.0.0b1 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
     PROFILES=eea.kitkat:default
