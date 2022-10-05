@@ -1,7 +1,7 @@
 # Changelog
 
 
-## [6.0.0-19](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-19) - 2022-10-03T23:15:39Z
+## [6.0.0-19](https://github.com/eea/plone-backend/releases/tag/6.0.0-19) - 2022-10-03T23:15:39Z
 
 ### Dependency updates
 
@@ -11,13 +11,13 @@
   [iulianpetchesi]
 
 
-## [6.0.0-18](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-18) - 2022-09-30T23:15:50Z
+## [6.0.0-18](https://github.com/eea/plone-backend/releases/tag/6.0.0-18) - 2022-09-30T23:15:50Z
 
 ### Internal
 
 - doc: Add changelog from releases - [valentinab25 -  [`f01c596`](https://github.com/eea/plone-backend/commit/f01c596dbee4fc9990eb52cdc4fde1cd86b2f5cd)]
 
-## [6.0.0-17](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-17) - 2022-09-27T18:53:44Z
+## [6.0.0-17](https://github.com/eea/plone-backend/releases/tag/6.0.0-17) - 2022-09-27T18:53:44Z
 
 ### Plone
 
@@ -40,7 +40,7 @@
 This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  [`315ac56`](https://github.com/eea/plone-backend/commit/315ac56a9930dc6178b2ddc2307e1da760812f6a)]
 - fix(Plone): Update pins - [Alin Voinea -  [`c79a7d9`](https://github.com/eea/plone-backend/commit/c79a7d927a2b3a80c1377f6bf8879b99b043e99e)]
 
-## [6.0.0-16](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-16) - 2022-09-21T23:23:54Z
+## [6.0.0-16](https://github.com/eea/plone-backend/releases/tag/6.0.0-16) - 2022-09-21T23:23:54Z
 
 ### Dependency updates
 
@@ -49,14 +49,14 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 
 
 
-## [6.0.0-15](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-15) - 2022-09-12T23:22:40Z
+## [6.0.0-15](https://github.com/eea/plone-backend/releases/tag/6.0.0-15) - 2022-09-12T23:22:40Z
 
 ### Dependency updates
 
 ##### [pas.plugins.oidc](https://pypi.org/project/pas.plugins.oidc/#changelog): 1.1 ~ 1.2
 
 
-## [6.0.0-14](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-14) - 2022-09-08T23:22:25Z
+## [6.0.0-14](https://github.com/eea/plone-backend/releases/tag/6.0.0-14) - 2022-09-08T23:22:25Z
 
 ### Dependency updates
 
@@ -66,7 +66,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
   [iulianpetchesi refs #153089]
 
 
-## [6.0.0-13](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-13) - 2022-08-30T23:15:52Z
+## [6.0.0-13](https://github.com/eea/plone-backend/releases/tag/6.0.0-13) - 2022-08-30T23:15:52Z
 
 ### Dependency updates
 
@@ -76,7 +76,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
   [iulianpetchesi refs #153089]
 
 
-## [6.0.0-12](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-12) - 2022-08-29T23:22:49Z
+## [6.0.0-12](https://github.com/eea/plone-backend/releases/tag/6.0.0-12) - 2022-08-29T23:22:49Z
 
 ### Dependency updates
 
@@ -91,7 +91,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
   [iulianpetchesi refs #153089]
 
 
-## [6.0.0-11](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-11) - 2022-08-25T23:15:39Z
+## [6.0.0-11](https://github.com/eea/plone-backend/releases/tag/6.0.0-11) - 2022-08-25T23:15:39Z
 
 ### Dependency updates
 
@@ -101,7 +101,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
   [avoinea refs #153334]
 
 
-## [6.0.0-10](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-10) - 2022-08-23T23:15:46Z
+## [6.0.0-10](https://github.com/eea/plone-backend/releases/tag/6.0.0-10) - 2022-08-23T23:15:46Z
 
 ### Dependency updates
 
@@ -111,7 +111,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
   [iulianpetchesi refs #153334]
 
 
-## [6.0.0-9](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-9) - 2022-08-19T23:22:34Z
+## [6.0.0-9](https://github.com/eea/plone-backend/releases/tag/6.0.0-9) - 2022-08-19T23:22:34Z
 
 ### Dependency updates
 
@@ -121,7 +121,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
   [nileshgulia1]
 
 
-## [6.0.0-8](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-8) - 2022-08-18T23:22:40Z
+## [6.0.0-8](https://github.com/eea/plone-backend/releases/tag/6.0.0-8) - 2022-08-18T23:22:40Z
 
 ### Dependency updates
 
@@ -131,7 +131,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
   [nileshgulia1]
 
 
-## [6.0.0-7](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-7) - 2022-08-05T10:07:02Z
+## [6.0.0-7](https://github.com/eea/plone-backend/releases/tag/6.0.0-7) - 2022-08-05T10:07:02Z
 
 ### Plone
 
@@ -162,7 +162,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 - Update to Plone 6.0.0b1 - [Alin Voinea -  [`a15885f`](https://github.com/eea/plone-backend/commit/a15885f6028572d5aa12a4f2fdb59aacae16cefc)]
 - Fix cryptography and python-ldap version pins - [Alin Voinea -  [`c1cd9ee`](https://github.com/eea/plone-backend/commit/c1cd9eeec8c3863405359c54b99e96860b074eeb)]
 
-## [6.0.0-6](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-6) - 2022-06-30T10:02:05Z
+## [6.0.0-6](https://github.com/eea/plone-backend/releases/tag/6.0.0-6) - 2022-06-30T10:02:05Z
 
 ### Plone
 
@@ -234,7 +234,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 - Release libvcs 0.11.1 - [Alin Voinea -  [`8d13db7`](https://github.com/eea/plone-backend/commit/8d13db70c52850ef2803f346c5304b85cb1b780f)]
 - Release Plone 6.0.0a6 - [Alin Voinea -  [`15dae37`](https://github.com/eea/plone-backend/commit/15dae37e06ea2ebc4e80ddab4959458df8897d71)]
 
-## [6.0.0-5](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-5) - 2022-03-25T00:22:38Z
+## [6.0.0-5](https://github.com/eea/plone-backend/releases/tag/6.0.0-5) - 2022-03-25T00:22:38Z
 
 ### Dependency updates
 
@@ -244,7 +244,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 
 - Update constraints.txt - [Alexandru Ghica -  [`5d6a899`](https://github.com/eea/plone-backend/commit/5d6a899bf9f508aff37f3ddd2fef8e297c3446c6)]
 
-## [6.0.0-4](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-4) - 2022-03-23T00:22:55Z
+## [6.0.0-4](https://github.com/eea/plone-backend/releases/tag/6.0.0-4) - 2022-03-23T00:22:55Z
 
 ### Dependency updates
 
@@ -254,7 +254,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
   [alecghica refs #137187]
 
 
-## [6.0.0-3](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-3) - 2022-03-18T16:41:12Z
+## [6.0.0-3](https://github.com/eea/plone-backend/releases/tag/6.0.0-3) - 2022-03-18T16:41:12Z
 
 ### Dependency updates
 
@@ -268,7 +268,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 - Update sources.ini - [Alexandru Ghica -  [`58c9021`](https://github.com/eea/plone-backend/commit/58c9021189835d4fa5e732a0a294c92fbbd0f337)]
 - Update constraints.txt - [Alexandru Ghica -  [`c58a544`](https://github.com/eea/plone-backend/commit/c58a5442fdc6f185966628e43fc28406fa290688)]
 
-## [6.0.0-2](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-2) - 2022-03-08T12:39:36Z
+## [6.0.0-2](https://github.com/eea/plone-backend/releases/tag/6.0.0-2) - 2022-03-08T12:39:36Z
 
 ### Dependency updates
 
@@ -286,7 +286,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 - Fix versions constraints - [Alin Voinea -  [`74a4b9b`](https://github.com/eea/plone-backend/commit/74a4b9b6ffa4e62948e1468678d5c2ac5c89dc3e)]
 - Test CORS via env - [Alin Voinea -  [`3c01402`](https://github.com/eea/plone-backend/commit/3c01402fca1bab33c4bd7c9efd0c5bc6e4e652bd)]
 
-## [6.0.0-1](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-1) - 2022-03-02T13:06:23Z
+## [6.0.0-1](https://github.com/eea/plone-backend/releases/tag/6.0.0-1) - 2022-03-02T13:06:23Z
 
 ### Plone
 
