@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [6.0.0-19](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-19) - 2022-10-03T23:15:39Z
+
+### Dependency updates
+
+##### [pas.plugins.oidc](https://github.com/eea/pas.plugins.oidc/releases): 1.3 ~ 1.4
+
+- Change: Changed default values of some properties
+  [iulianpetchesi]
+
+
+## [6.0.0-18](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-18) - 2022-09-30T23:15:50Z
+
+### Internal
+
+- doc: Add changelog from releases - [valentinab25 -  [`f01c596`](https://github.com/eea/plone-backend/commit/f01c596dbee4fc9990eb52cdc4fde1cd86b2f5cd)]
+
 ## [6.0.0-17](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-17) - 2022-09-27T18:53:44Z
 
 ### Plone
@@ -47,7 +63,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 ##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 1.9 ~ 2.0
 
 * Change: Fix constraint bug on env vars when empty string
-  [iulianpetchesi refs [#153089](https://taskman.eionet.europa.eu/issues/153089)]
+  [iulianpetchesi refs #153089]
 
 
 ## [6.0.0-13](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-13) - 2022-08-30T23:15:52Z
@@ -57,7 +73,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 ##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 1.8 ~ 1.9
 
 * Change: Convert env vars to list from string
-  [iulianpetchesi refs [#153089](https://taskman.eionet.europa.eu/issues/153089)]
+  [iulianpetchesi refs #153089]
 
 
 ## [6.0.0-12](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-12) - 2022-08-29T23:22:49Z
@@ -67,12 +83,12 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 ##### [eea.banner](https://github.com/eea/eea.banner/releases): 1.3 ~ 1.4
 
 * Change: Changed how eea.banner gets STATIC/DYNAMIC env vars
-  [iulianpetchesi [#153089](https://taskman.eionet.europa.eu/issues/153089)]
+  [iulianpetchesi #153089]
 
 ##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 1.7 ~ 1.8
 
 * Change: Enhanced the way env variables are retrieved and used
-  [iulianpetchesi refs [#153089](https://taskman.eionet.europa.eu/issues/153089)]
+  [iulianpetchesi refs #153089]
 
 
 ## [6.0.0-11](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-11) - 2022-08-25T23:15:39Z
@@ -82,7 +98,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 ##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 3.0 ~ 3.1
 
 * Feature: Add PATCH support for `@system` endpoint in order to be able to update frontend version
-  [avoinea refs [#153334](https://taskman.eionet.europa.eu/issues/153334)]
+  [avoinea refs #153334]
 
 
 ## [6.0.0-10](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-10) - 2022-08-23T23:15:46Z
@@ -92,7 +108,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 ##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 2.0 ~ 3.0
 
 * Feature: Added backend/frontend version registry records + automatically update the version on zope startup
-  [iulianpetchesi refs [#153334](https://taskman.eionet.europa.eu/issues/153334)]
+  [iulianpetchesi refs #153334]
 
 
 ## [6.0.0-9](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-9) - 2022-08-19T23:22:34Z
@@ -235,7 +251,7 @@ This reverts commit aa21fc2bca4129de47e79abc09635faeae922360. - [Alin Voinea -  
 ##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 1.7 ~ 1.8
 
 * Feature: added pas.plugins.oidc as dependency
-  [alecghica refs [#137187](https://taskman.eionet.europa.eu/issues/137187)]
+  [alecghica refs #137187]
 
 
 ## [6.0.0-3](https://github.com/eea/eea-website-backend/releases/tag/6.0.0-3) - 2022-03-18T16:41:12Z
