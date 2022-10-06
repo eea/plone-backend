@@ -1,20 +1,6 @@
 # Changelog
 
 
-## [6.0.0-20](https://github.com/eea/plone-backend/releases/tag/6.0.0-20) - 2022-10-06T08:46:05Z
-
-### Dependency updates
-
-##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 2.0 ~ 2.1
-
-* Change: Update topics taxonomy with new info + upgrade step
-  [iulianpetchesi refs #154859]
-
-### Internal
-
-- docs: Update changelog - [valentinab25 -  [`0692eab`](https://github.com/eea/plone-backend/commit/0692eab5b00dc68ecf5fa0fd88bb89915a78362d)]
-- docs: Fix release link - [valentinab25 -  [`1e3833e`](https://github.com/eea/plone-backend/commit/1e3833e81999c2a59498926fe1c1d07dc46bbcc7)]
-
 ## [6.0.0-19](https://github.com/eea/plone-backend/releases/tag/6.0.0-19) - 2022-10-03T23:15:39Z
 
 ### Dependency updates
