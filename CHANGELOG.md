@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-21](https://github.com/eea/plone-backend/releases/tag/6.0.0-21) - 2022-10-07T23:23:14Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 2.1 ~ 2.2
+
+* Change: Added the field rights back
+  [dobri1408]
+
+
 ## [6.0.0-20](https://github.com/eea/plone-backend/releases/tag/6.0.0-20) - 2022-10-06T10:46:13Z
 
 ### Dependency updates
