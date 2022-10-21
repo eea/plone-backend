@@ -16,7 +16,7 @@ eea.api.layout==3.2
 eea.api.taxonomy==1.5
 eea.banner==1.4
 eea.cache==9.5
-eea.coremetadata==2.2
+eea.coremetadata==2.3
 eea.geolocation==2.1
 eea.schema.slate==1.2
 eea.sentry==2.4
