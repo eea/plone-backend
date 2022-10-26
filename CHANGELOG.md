@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [6.0.0-23](https://github.com/eea/plone-backend/releases/tag/6.0.0-23) - 2022-10-26T23:15:53Z
+
+### Plone
+
+#### Upgrade 6.0.0b2 ~ 6.0.0b3 
+
+* Plone [6.0.0b3](https://plone.org/download/releases/6.0.0b3)
+
+### Internal
+
+- Release Plone 6.0.0b3 - [Alin Voinea -  [`db4e37a`](https://github.com/eea/plone-backend/commit/db4e37a5324e4e62760762d11fa7375452fdecc3)]
+- chore(constraints): Update dependencies pins - [Alin Voinea -  [`9474bdf`](https://github.com/eea/plone-backend/commit/9474bdf8adec337236add7f69cd9e33d64186be4)]
+- Revert "chore(constraints): Update dependencies pins"
+
+This reverts commit 9474bdf8adec337236add7f69cd9e33d64186be4. - [Alin Voinea -  [`a68b478`](https://github.com/eea/plone-backend/commit/a68b47849a2515989aa803e31feed4b21f4c3900)]
+
 ## [6.0.0-22](https://github.com/eea/plone-backend/releases/tag/6.0.0-22) - 2022-10-21T23:22:57Z
 
 ### Dependency updates
