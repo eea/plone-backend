@@ -1,6 +1,20 @@
 # Changelog
 
 
+## [6.0.0-24](https://github.com/eea/plone-backend/releases/tag/6.0.0-24) - 2022-11-15T00:15:50Z
+
+### Dependency updates
+
+##### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.1 ~ 2.3
+
+* Change: Rename controlpanel id to avoid conflicts with plone.formwidget.geolocation
+  [avoinea]
+
+* Change: Changed restapi encoding from ascii to latin-1 in order to better
+  represent ascii characters
+  [iulianpetchesi refs #153129]
+
+
 ## [6.0.0-23](https://github.com/eea/plone-backend/releases/tag/6.0.0-23) - 2022-10-26T23:15:53Z
 
 ### Plone
