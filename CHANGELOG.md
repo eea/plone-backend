@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-25](https://github.com/eea/plone-backend/releases/tag/6.0.0-25) - 2022-11-16T00:15:58Z
+
+### Dependency updates
+
+##### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.3 ~ 2.4
+
+* Change: Restore old encoding for restapi
+  [iulianpetchesi refs #153129]
+
+
 ## [6.0.0-24](https://github.com/eea/plone-backend/releases/tag/6.0.0-24) - 2022-11-15T00:15:50Z
 
 ### Dependency updates
