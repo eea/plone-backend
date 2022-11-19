@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-27](https://github.com/eea/plone-backend/releases/tag/6.0.0-27) - 2022-11-19T00:15:51Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 3.1 ~ 4.0
+
+* Feature: New category actions: footer, social, copyright and contact
+  [avoinea refs #151856]
+
+
 ## [6.0.0-26](https://github.com/eea/plone-backend/releases/tag/6.0.0-26) - 2022-11-18T00:22:21Z
 
 ### Dependency updates
