@@ -8,7 +8,7 @@ pas.plugins.oidc==1.4
 python-ldap==3.4.0
 
 # EEA KitKat bundle
-eea.kitkat==4.0
+eea.kitkat==4.1
 
 # Required by eea.kitkat
 collective.taxonomy==2.2.2
