@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-28](https://github.com/eea/plone-backend/releases/tag/6.0.0-28) - 2022-11-29T00:23:20Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 4.0 ~ 4.1
+
+* Feature: Add contact_extra_actions: faqs and careers
+  [avoinea refs #151856]
+
+
 ## [6.0.0-27](https://github.com/eea/plone-backend/releases/tag/6.0.0-27) - 2022-11-19T00:15:51Z
 
 ### Dependency updates
