@@ -42,11 +42,11 @@ endif
 ##############################################################################
 # SETTINGS AND VARIABLE
 
-PLONE_VERSION=6.0.0b2
+PLONE_VERSION=6.0.0
 #`docker run -i --rm eeacms/plone-backend env | grep PLONE_VERSION | sed "s/PLONE_VERSION=//g"`
 PIP_PARAMS=
 #`docker run -i --rm eeacms/plone-backend env | grep PIP_PARAMS | sed "s/PIP_PARAMS=//g"`
-PYTHON?=python3.9
+PYTHON?=python3.11
 
 # Top-level targets
 .PHONY: all
