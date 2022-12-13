@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-29](https://github.com/eea/plone-backend/releases/tag/6.0.0-29) - 2022-12-13T00:23:10Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 2.3 ~ 2.4
+
+* Change: Added upgrade step that enables behavior indexer for topics taxonomy
+  [iulianpetchesi refs #157336]
+
+
 ## [6.0.0-28](https://github.com/eea/plone-backend/releases/tag/6.0.0-28) - 2022-11-29T00:23:20Z
 
 ### Dependency updates
