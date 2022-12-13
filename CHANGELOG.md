@@ -1,6 +1,54 @@
 # Changelog
 
 
+## [6.0.0-30](https://github.com/eea/plone-backend/releases/tag/6.0.0-30) - 2022-12-13T10:27:20Z
+
+### Plone
+
+#### Upgrade 6.0.0b3 ~ 6.0.0 
+
+* Plone [6.0.0](https://plone.org/download/releases/6.0.0)
+* Plone [6.0.0rc2](https://plone.org/download/releases/6.0.0rc2)
+* Plone [6.0.0rc1](https://plone.org/download/releases/6.0.0rc1)
+
+### Dependency updates
+
+##### [Beaker](https://pypi.org/project/Beaker/#changelog): 1.11.0 ~ 1.12.0
+
+##### [Mako](https://pypi.org/project/Mako/#changelog): 1.2.1 ~ 1.2.4
+
+##### [collective.exportimport](https://pypi.org/project/collective.exportimport/#changelog): 1.5 ~ 1.6
+
+##### [cryptography](https://pypi.org/project/cryptography/#changelog): 37.0.2 ~ 38.0.3
+
+##### [eventlet](https://pypi.org/project/eventlet/#changelog): 0.33.1 ~ 0.33.2
+
+##### [greenlet](https://pypi.org/project/greenlet/#changelog): 1.1.2 ~ 2.0.1
+
+##### [node.ext.ldap](https://pypi.org/project/node.ext.ldap/#changelog): 1.0 ~ 1.2
+
+##### [node.ext.ugm](https://pypi.org/project/node.ext.ugm/#changelog): 1.0 ~ 1.1
+
+##### [pas.plugins.ldap](https://pypi.org/project/pas.plugins.ldap/#changelog): 1.8.1 ~ 1.8.2
+
+##### [pycryptodomex](https://pypi.org/project/pycryptodomex/#changelog): 3.15.0 ~ 3.16.0
+
+##### [python-ldap](https://pypi.org/project/python-ldap/#changelog): 3.4.0 ~ 3.4.3
+
+##### [sentry-sdk](https://pypi.org/project/sentry-sdk/#changelog): 1.9.0 ~ 1.11.1
+
+##### [typing-extensions](https://pypi.org/project/typing-extensions/#changelog): 4.3.0 ~ 4.4.0
+
+##### [yafowil.plone](https://pypi.org/project/yafowil.plone/#changelog): 4.0.0a4.dev0 ~ 4.0.0a5.dev0
+
+##### [yafowil.widget.array](https://pypi.org/project/yafowil.widget.array/#changelog): 1.6.1 ~ 1.7
+
+##### [yafowil.yaml](https://pypi.org/project/yafowil.yaml/#changelog): 1.3.1 ~ 2.0
+
+### Internal
+
+- Upgrade to Plone 6.0.0 final release - [Alin Voinea -  [`c466c17`](https://github.com/eea/plone-backend/commit/c466c179232786c3d29a3f31f5bdb53c07c3f917)]
+
 ## [6.0.0-29](https://github.com/eea/plone-backend/releases/tag/6.0.0-29) - 2022-12-13T00:23:10Z
 
 ### Dependency updates
