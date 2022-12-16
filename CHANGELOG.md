@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-31](https://github.com/eea/plone-backend/releases/tag/6.0.0-31) - 2022-12-16T00:23:44Z
+
+### Dependency updates
+
+##### [collective.taxonomy](https://pypi.org/project/collective.taxonomy/#changelog): 2.2.2 ~ 3.0.0
+
+### Internal
+
+- Upgrade collective.taxonomy 3.0.0 - [Alin Voinea -  [`da1e5e0`](https://github.com/eea/plone-backend/commit/da1e5e07b407c1943f02fbf1d30b9d28a45004b7)]
+
 ## [6.0.0-30](https://github.com/eea/plone-backend/releases/tag/6.0.0-30) - 2022-12-13T10:27:20Z
 
 ### Plone
