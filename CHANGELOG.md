@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-32](https://github.com/eea/plone-backend/releases/tag/6.0.0-32) - 2022-12-16T13:59:31Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 2.4 ~ 2.5
+
+* Change: Distinct title for taxonomies to differentiate in search criteria
+  [avoinea]
+
+
 ## [6.0.0-31](https://github.com/eea/plone-backend/releases/tag/6.0.0-31) - 2022-12-16T00:23:44Z
 
 ### Dependency updates
