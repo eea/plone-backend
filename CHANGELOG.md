@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.0-34](https://github.com/eea/plone-backend/releases/tag/6.0.0-34) - 2022-12-20T13:58:15Z
+
+### Internal
+
+-  test(addons): Fix expected std out for addons test - [valentinab25 -  [`8d9d6d3`](https://github.com/eea/plone-backend/commit/8d9d6d332299f58fd0aa50bf6fdb35c8d303eb82)]
+
 ## [6.0.0-33](https://github.com/eea/plone-backend/releases/tag/6.0.0-33) - 2022-12-19T10:51:26Z
 
 ### Internal
