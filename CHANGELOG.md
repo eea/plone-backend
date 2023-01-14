@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [6.0.0-35](https://github.com/eea/plone-backend/releases/tag/6.0.0-35) - 2023-01-14T00:12:14Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 4.1 ~ 4.2
+
+* Feature: Added friendlycaptcha settings + verify to be used with redmine
+  helpdesk block
+  [iulianpetchesi refs #157143]
+
+
 ## [6.0.0-34](https://github.com/eea/plone-backend/releases/tag/6.0.0-34) - 2022-12-20T13:58:15Z
 
 ### Internal
