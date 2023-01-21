@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-36](https://github.com/eea/plone-backend/releases/tag/6.0.0-36) - 2023-01-21T00:12:45Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 4.2 ~ 4.3
+
+* Feature: Send captcha data as bytes, add @captchaverify endpoints
+  [iulianpetchesi refs #157143]
+
+
 ## [6.0.0-35](https://github.com/eea/plone-backend/releases/tag/6.0.0-35) - 2023-01-14T00:12:14Z
 
 ### Dependency updates
