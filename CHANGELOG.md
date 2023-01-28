@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-37](https://github.com/eea/plone-backend/releases/tag/6.0.0-37) - 2023-01-28T00:12:00Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 4.3 ~ 4.4
+
+* Task: Add missing IEeaKitkatLayer for captcha restapi
+  [iulianpetchesi refs #157143]
+
+
 ## [6.0.0-36](https://github.com/eea/plone-backend/releases/tag/6.0.0-36) - 2023-01-21T00:12:45Z
 
 ### Dependency updates
