@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.0-39](https://github.com/eea/plone-backend/releases/tag/6.0.0-39) - 2023-01-31T12:13:00Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 4.6 ~ 4.7
+
+* Task: Add endpoint in order to get the captcha key from registry
+  [iulianpetchesi refs #157143]
+
+
 ## [6.0.0-38](https://github.com/eea/plone-backend/releases/tag/6.0.0-38) - 2023-01-30T19:53:03Z
 
 ### Dependency updates
