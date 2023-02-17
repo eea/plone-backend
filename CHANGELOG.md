@@ -1,6 +1,44 @@
 # Changelog
 
 
+## [6.0.1-1](https://github.com/eea/plone-backend/releases/tag/6.0.1-1) - 2023-02-17T17:47:03Z
+
+### Plone
+
+#### Upgrade 6.0.0 ~ 6.0.1 
+
+* Plone [6.0.1](https://plone.org/download/releases/6.0.1)
+
+### Dependency updates
+
+##### [collective.exportimport](https://pypi.org/project/collective.exportimport/#changelog): 1.6 ~ 1.7
+
+##### [collective.taxonomy](https://pypi.org/project/collective.taxonomy/#changelog): 3.0.0 ~ 3.0.1
+
+##### [cryptography](https://pypi.org/project/cryptography/#changelog): 38.0.3 ~ 38.0.4
+
+##### [dnspython](https://pypi.org/project/dnspython/#changelog): 2.2.1 ~ 2.3.0
+
+##### [eventlet](https://pypi.org/project/eventlet/#changelog): 0.33.2 ~ 0.33.3
+
+##### [greenlet](https://pypi.org/project/greenlet/#changelog): 2.0.1 ~ 2.0.2
+
+##### [ijson](https://pypi.org/project/ijson/#changelog): 3.1.4 ~ 3.2.0.post0
+
+##### [oic](https://pypi.org/project/oic/#changelog): 1.4.0 ~ 1.5.0
+
+##### [pycryptodomex](https://pypi.org/project/pycryptodomex/#changelog): 3.16.0 ~ 3.17
+
+##### [selenium](https://pypi.org/project/selenium/#changelog): 4.6.0 ~ 4.7.2
+
+##### [sentry-sdk](https://pypi.org/project/sentry-sdk/#changelog): 1.11.1 ~ 1.15.0
+
+##### [zope.testrunner](https://pypi.org/project/zope.testrunner/#changelog): 5.5.1 ~ 5.6
+
+### Internal
+
+- Release Plone 6.0.1 - [Alin Voinea -  [`314362b`](https://github.com/eea/plone-backend/commit/314362bf18dd02a95a496b9b198d30875bbabd35)]
+
 ## [6.0.0-39](https://github.com/eea/plone-backend/releases/tag/6.0.0-39) - 2023-01-31T12:13:00Z
 
 ### Dependency updates
