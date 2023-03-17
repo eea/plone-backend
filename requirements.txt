@@ -2,3 +2,4 @@ pas.plugins.ldap
 collective.exportimport
 eea.kitkat
 mxdev
+pylibmc

@@ -5,6 +5,7 @@ pas.plugins.ldap==1.8.2
 pas.plugins.oidc==1.4
 python-ldap==3.4.3
 python-memcached==1.59
+pylibmc==1.6.3
 
 # EEA KitKat bundle
 eea.kitkat==4.7
