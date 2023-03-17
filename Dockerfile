@@ -25,3 +25,6 @@ COPY --from=builder /wheelhouse /wheelhouse
 
 RUN ./bin/pip install --no-index --no-deps ${PIP_PARAMS} /wheelhouse/* \
     && find /app -not -user plone -exec chown plone:plone {} \+
+
+ENTRYPOINT [ "/app/docker-entrypoint.sh" ]
+CMD ["start"]
