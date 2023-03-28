@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.2-2](https://github.com/eea/plone-backend/releases/tag/6.0.2-2) - 2023-03-28T23:14:06Z
+
+### Internal
+
+- Add missing MEMCACHE_SERVER env - [Alin Voinea -  [`960fde2`](https://github.com/eea/plone-backend/commit/960fde29fab7abef4d0f40ed8df5586ce2cfc4b2)]
+
 ## [6.0.2-1](https://github.com/eea/plone-backend/releases/tag/6.0.2-1) - 2023-03-23T16:51:27Z
 
 ### Plone
