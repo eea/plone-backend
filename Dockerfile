@@ -4,6 +4,7 @@ FROM base as builder
 ENV PLONE_VERSION=6.0.2 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
+    MEMCACHE_SERVER=memcached:11211 \
     PROFILES=eea.kitkat:default
 
 RUN apt-get update \
@@ -19,6 +20,7 @@ FROM base
 ENV PLONE_VERSION=6.0.2 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
+    MEMCACHE_SERVER=memcached:11211 \
     PROFILES=eea.kitkat:default
 
 COPY --from=builder /wheelhouse /wheelhouse
