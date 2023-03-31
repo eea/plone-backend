@@ -12,7 +12,6 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends $buildDeps\
     && rm -rf /var/lib/apt/lists/* /usr/share/doc
 
-COPY /etc/zope.ini /app/etc/
 COPY requirements.txt constraints.txt /app/
 RUN pip wheel -r requirements.txt -c constraints.txt -c https://dist.plone.org/release/$PLONE_VERSION/constraints.txt --wheel-dir=/wheelhouse ${PIP_PARAMS}
 
@@ -24,6 +23,7 @@ ENV PLONE_VERSION=6.0.2 \
     MEMCACHE_SERVER=memcached:11211 \
     PROFILES=eea.kitkat:default
 
+COPY /etc/zope.ini /app/etc/
 COPY --from=builder /wheelhouse /wheelhouse
 
 RUN ./bin/pip install --no-index --no-deps ${PIP_PARAMS} /wheelhouse/* \

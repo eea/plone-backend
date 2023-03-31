@@ -22,6 +22,7 @@ eea.schema.slate==1.2
 eea.sentry==2.4
 eea.volto.policy==1.7
 eea.zotero==1.4
+eea.graylogger==2.2
 
 # Required by collective.exportimport
 collective.exportimport==1.7
