@@ -3,3 +3,4 @@ collective.exportimport
 eea.kitkat
 mxdev
 pylibmc
+eea.graylogger
