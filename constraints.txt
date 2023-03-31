@@ -37,6 +37,7 @@ dnspython==2.3.0
 eventlet==0.33.3
 five.globalrequest==99.1
 furl==2.1.3
+graypy==2.1.0.eea-dev0
 greenlet==2.0.2
 h11==0.14.0
 hurry.filesize==0.9
