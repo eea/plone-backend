@@ -1,6 +1,32 @@
 # Changelog
 
 
+## [6.0.3-1](https://github.com/eea/plone-backend/releases/tag/6.0.3-1) - 2023-03-31T23:14:29Z
+
+### Plone
+
+#### Upgrade 6.0.2 ~ 6.0.3 
+
+* Plone [6.0.3](https://plone.org/download/releases/6.0.3)
+
+### Dependency updates
+
+##### [MarkupSafe](https://pypi.org/project/MarkupSafe/#changelog): 2.1.1 ~ 2.1.2
+
+##### [cryptography](https://pypi.org/project/cryptography/#changelog): 38.0.4 ~ 39.0.2
+
+##### [sentry-sdk](https://pypi.org/project/sentry-sdk/#changelog): 1.17.0 ~ 1.18.0
+
+##### [trio-websocket](https://pypi.org/project/trio-websocket/#changelog): 0.9.2 ~ 0.10.0
+
+##### [typing-extensions](https://pypi.org/project/typing-extensions/#changelog): 4.4.0 ~ 4.5.0
+
+##### [wrapt](https://pypi.org/project/wrapt/#changelog): 1.14.1 ~ 1.15.0
+
+### Internal
+
+- Release Plone 6.0.3 - [Alin Voinea -  [`7ce519d`](https://github.com/eea/plone-backend/commit/7ce519dda6f4e144032fc336fa494e456955e582)]
+
 ## [6.0.2-2](https://github.com/eea/plone-backend/releases/tag/6.0.2-2) - 2023-03-28T23:14:06Z
 
 ### Internal
