@@ -4,3 +4,4 @@ eea.kitkat
 mxdev
 pylibmc
 eea.graylogger
+amqp
