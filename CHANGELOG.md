@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.3-2](https://github.com/eea/plone-backend/releases/tag/6.0.3-2) - 2023-04-10T18:04:43Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 1.7 ~ 2.0
+
+* Bug fix: RestAPI fix DateTime timezone for publication fields serializer/deserializer
+  [avoinea refs #250368]
+* Cleanup: Drop Python2/Plone4 support
+  [avoinea refs #250368]
+
+
 ## [6.0.3-1](https://github.com/eea/plone-backend/releases/tag/6.0.3-1) - 2023-03-31T23:14:29Z
 
 ### Plone
