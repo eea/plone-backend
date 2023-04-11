@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.3-3](https://github.com/eea/plone-backend/releases/tag/6.0.3-3) - 2023-04-11T12:38:34Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 2.0 ~ 2.1
+
+* Bug fix: RestAPI fix DateTime timezone for ICoreMetadata fields serializer/deserializer
+  [avoinea refs #250368]
+
+
 ## [6.0.3-2](https://github.com/eea/plone-backend/releases/tag/6.0.3-2) - 2023-04-10T18:04:43Z
 
 ### Dependency updates
