@@ -23,6 +23,7 @@ eea.schema.slate==1.2
 eea.sentry==2.4
 eea.volto.policy==2.1
 eea.zotero==1.4
+redturtle.rssservice==2.2.0
 
 # Required by collective.exportimport
 collective.exportimport==1.7
