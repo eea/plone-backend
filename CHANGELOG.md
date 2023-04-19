@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.3-4](https://github.com/eea/plone-backend/releases/tag/6.0.3-4) - 2023-04-19T23:13:39Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 2.1 ~ 2.2
+
+* Bug fix: restore IVoltoSettings interface
+  [alecghica refs #250564]
+
+
 ## [6.0.3-3](https://github.com/eea/plone-backend/releases/tag/6.0.3-3) - 2023-04-11T12:38:34Z
 
 ### Dependency updates
