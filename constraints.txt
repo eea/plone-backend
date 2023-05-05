@@ -9,7 +9,7 @@ python-memcached==1.59
 pylibmc==1.6.3
 
 # EEA KitKat bundle
-eea.kitkat==4.7
+eea.kitkat==5.0
 
 # Required by eea.kitkat
 collective.taxonomy==3.0.1
