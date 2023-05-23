@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.3-8](https://github.com/eea/plone-backend/releases/tag/6.0.3-8) - 2023-05-23T12:59:50Z
+
+### Internal
+
+- add dependent dockerfiles - [valentinab25 -  [`c1392ed`](https://github.com/eea/plone-backend/commit/c1392edcbf60e2b15b8d3cd0c32a38fc85afe520)]
+
 ## [6.0.3-7](https://github.com/eea/plone-backend/releases/tag/6.0.3-7) - 2023-05-05T16:12:20Z
 
 ### Dependency updates
