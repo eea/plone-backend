@@ -1,7 +1,7 @@
-FROM plone/plone-backend:6.0.3 as base
+FROM plone/plone-backend:6.0.4 as base
 FROM base as builder
 
-ENV PLONE_VERSION=6.0.3 \
+ENV PLONE_VERSION=6.0.4 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
     MEMCACHE_SERVER=memcached:11211 \
@@ -13,7 +13,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* /usr/share/doc
 
 COPY requirements.txt constraints.txt /app/
-RUN pip wheel -r requirements.txt -c constraints.txt -c https://dist.plone.org/release/$PLONE_VERSION/constraints.txt --wheel-dir=/wheelhouse ${PIP_PARAMS}
+RUN pip wheel -r requirements.txt -c constraints.txt -c https://dist.plone.org/release/$PLONE_VERSION/constraints.txt --wheel-dir=/wheelhouse
 
 FROM base
 
@@ -26,7 +26,7 @@ ENV PLONE_VERSION=6.0.3 \
 COPY /etc/zope.ini /app/etc/
 COPY --from=builder /wheelhouse /wheelhouse
 
-RUN ./bin/pip install --no-index --no-deps ${PIP_PARAMS} /wheelhouse/* \
+RUN ./bin/pip install --no-index --no-deps /wheelhouse/* \
     && find /app -not -user plone -exec chown plone:plone {} \+
 
 ENTRYPOINT [ "/app/docker-entrypoint.sh" ]
