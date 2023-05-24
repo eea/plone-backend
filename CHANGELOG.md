@@ -1,6 +1,64 @@
 # Changelog
 
 
+## [6.0.3-8](https://github.com/eea/plone-backend/releases/tag/6.0.3-8) - 2023-05-23T12:59:50Z
+
+### Internal
+
+- add dependent dockerfiles - [valentinab25 -  [`c1392ed`](https://github.com/eea/plone-backend/commit/c1392edcbf60e2b15b8d3cd0c32a38fc85afe520)]
+
+## [6.0.3-7](https://github.com/eea/plone-backend/releases/tag/6.0.3-7) - 2023-05-05T16:12:20Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 4.7 ~ 5.0
+
+* Task: Remove eea.cache dependency from eea.kitkat
+  [iulianpetchesi refs #251471]
+
+
+## [6.0.3-6](https://github.com/eea/plone-backend/releases/tag/6.0.3-6) - 2023-04-26T23:12:48Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 3.0 ~ 3.1
+
+* Change: Develop refs #250426
+  [alecghica]
+
+
+## [6.0.3-4](https://github.com/eea/plone-backend/releases/tag/6.0.3-4) - 2023-04-19T23:13:39Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 2.1 ~ 2.2
+
+* Bug fix: restore IVoltoSettings interface
+  [alecghica refs #250564]
+
+
+## [6.0.3-3](https://github.com/eea/plone-backend/releases/tag/6.0.3-3) - 2023-04-11T12:38:34Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 2.0 ~ 2.1
+
+* Bug fix: RestAPI fix DateTime timezone for ICoreMetadata fields serializer/deserializer
+  [avoinea refs #250368]
+
+
+## [6.0.3-2](https://github.com/eea/plone-backend/releases/tag/6.0.3-2) - 2023-04-10T18:04:43Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 1.7 ~ 2.0
+
+* Bug fix: RestAPI fix DateTime timezone for publication fields serializer/deserializer
+  [avoinea refs #250368]
+* Cleanup: Drop Python2/Plone4 support
+  [avoinea refs #250368]
+
+
 ## [6.0.3-1](https://github.com/eea/plone-backend/releases/tag/6.0.3-1) - 2023-03-31T23:14:29Z
 
 ### Plone

@@ -2,6 +2,5 @@ pas.plugins.ldap
 collective.exportimport
 eea.kitkat
 mxdev
-pylibmc
 eea.graylogger
 amqp

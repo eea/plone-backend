@@ -6,28 +6,26 @@ pas.plugins.ldap==1.8.2
 pas.plugins.oidc==1.4
 python-ldap==3.4.3
 python-memcached==1.59
-pylibmc==1.6.3
 
 # EEA KitKat bundle
-eea.kitkat==4.7
+eea.kitkat==5.0
 
 # Required by eea.kitkat
 collective.taxonomy==3.0.1
 eea.api.layout==3.2
 eea.api.taxonomy==1.5
 eea.banner==1.4
-eea.cache==9.5
-eea.coremetadata==3.0
+eea.coremetadata==3.1
 eea.geolocation==2.5
 eea.schema.slate==1.2
 eea.sentry==2.4
-eea.volto.policy==1.7
+eea.volto.policy==2.2
 eea.zotero==1.4
 eea.graylogger==2.3
 
 # Required by collective.exportimport
-collective.exportimport==1.7
-yafowil.plone==4.0.0a5
+collective.exportimport==1.8
+#yafowil.plone==4.0.0a5
 
 # Picked versions
 async-generator==1.10
