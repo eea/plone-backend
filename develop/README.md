@@ -9,7 +9,7 @@ Trainings on how to create your own website using Plone 6 is available as part o
 
 ## Pre-requirements
 
-* Python **3.7, 3.8, 3.9**
+* Python **3.9, 3.10, 3.11**
 * Python **python-venv** and **python-dev**
 * Libraries
   - **libz**
@@ -25,11 +25,11 @@ Trainings on how to create your own website using Plone 6 is available as part o
 **Note** If you already have a higher version of python on your system, replace **python3.8** with your installed version bellow
 
     apt update
-    apt install python3-venv python3.8-dev python3.8-venv git make gcc
+    apt install python3-venv python3.11-dev python3.11-venv git make gcc
 
 Optionally set default `python3`:
 
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1
 
 ### Mac OS
 
@@ -45,9 +45,9 @@ In order to develop Plone 6 backend add-ons run:
     make
     make start
 
-To use other **Python** version run make with `-e` parameter:
+To use other **Python** version (default: `python3.11`) run make with `-e` parameter:
 
-    make -e PYTHON=python3.9
+    make -e PYTHON=python3.10
     make start
 
 
@@ -62,7 +62,7 @@ We recommend using [Visual Studio Code](https://code.visualstudio.com/) Editor
   * [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) - Windows only
   * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * Open Visual Studio Code and click **File > Open Folder**
-* Browser your computer and select **eea-website-backend > develop**
+* Browser your computer and select **plone-backend > develop**
 * Within the **Explorer** open `develop > sources > eea.kitkat > eea > kitkat > interfaces.py` and type
   `from zope.component import query`. If you get the auto-complete options, you're done.
 * Happy hacking!
@@ -93,11 +93,9 @@ Or via `Visual Studio Code`
 
 ## Cleanup
 
-If you want to cleanup your development environment and start from scratch just remove the `develop` folder and re-run all steps from the [Install](#install) section:
+If you want to cleanup your development environment and start from scratch just remove the `develop` folder and re-run all steps from the [Install](#install) section or use:
 
-    rm -rf ./develop
-    git checkout ./develop
-    git pull
+    make clean
 
 
 ## Copyright and license
