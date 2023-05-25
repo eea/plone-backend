@@ -1,6 +1,43 @@
 # Changelog
 
 
+## [6.0.4-1](https://github.com/eea/plone-backend/releases/tag/6.0.4-1) - 2023-05-25T23:13:38Z
+
+### Dependency updates
+
+##### [collective.exportimport](https://pypi.org/project/collective.exportimport/#changelog): 1.8 ~ 1.9
+
+##### [cryptography](https://pypi.org/project/cryptography/#changelog): 39.0.2 ~ 40.0.2
+
+##### [eea.sentry](https://github.com/eea/eea.sentry/releases): 2.4 ~ 3.0
+
+* Refactor: Drop eea.cache dependency in favor of plone.memoize
+  [avoinea]
+
+##### [oic](https://pypi.org/project/oic/#changelog): 1.5.0 ~ 1.6.0
+
+##### [plone.app.testing](https://pypi.org/project/plone.app.testing/#changelog): 7.0.0 ~ 7.0.1
+
+##### [pycryptodomex](https://pypi.org/project/pycryptodomex/#changelog): 3.17 ~ 3.18.0
+
+##### [robotframework-pythonlibcore](https://pypi.org/project/robotframework-pythonlibcore/#changelog): 4.0.0 ~ 4.1.2
+
+##### [robotframework-seleniumtestability](https://pypi.org/project/robotframework-seleniumtestability/#changelog): 2.0.0 ~ 2.1.0
+
+##### [selenium](https://pypi.org/project/selenium/#changelog): 4.7.2 ~ 4.8.3
+
+##### [sentry-sdk](https://pypi.org/project/sentry-sdk/#changelog): 1.18.0 ~ 1.24.0
+
+##### [trio-websocket](https://pypi.org/project/trio-websocket/#changelog): 0.10.0 ~ 0.10.2
+
+### Internal
+
+- refactor: Remove eea.cache dependency - refs #251471 - [Petchesi Iulian -  [`920b16b`](https://github.com/eea/plone-backend/commit/920b16b796ef848b6fedcd08c941455719f72831)]
+- Upgrade to Plone 6.0.4 - [Alin Voinea -  [`c8e33be`](https://github.com/eea/plone-backend/commit/c8e33befa490b9da6ca6ff6b55aa1853fddca4e7)]
+- add bise-backend branch plone-6 - [valentinab25 -  [`424200c`](https://github.com/eea/plone-backend/commit/424200cdf44264acf22f76f7a8ed03b37ac3c77c)]
+- Add ZEO missing dependency - [alin -  [`e1fefba`](https://github.com/eea/plone-backend/commit/e1fefba8375f6408fcf082224ba5449b811bd1b8)]
+- feat: Use eea.graylogger in backend - refs #249331 - [Petchesi Iulian -  [`602c412`](https://github.com/eea/plone-backend/commit/602c41285d7f325a409c198c54c218dc034c3e1e)]
+
 ## [6.0.3-8](https://github.com/eea/plone-backend/releases/tag/6.0.3-8) - 2023-05-23T12:59:50Z
 
 ### Internal
