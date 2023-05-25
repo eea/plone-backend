@@ -4,3 +4,4 @@ eea.kitkat
 mxdev
 eea.graylogger
 amqp
+ZEO
