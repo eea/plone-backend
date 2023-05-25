@@ -2,4 +2,6 @@ pas.plugins.ldap
 collective.exportimport
 eea.kitkat
 mxdev
+eea.graylogger
+amqp
 ZEO

@@ -23,6 +23,7 @@ ENV PLONE_VERSION=6.0.3 \
     MEMCACHE_SERVER=memcached:11211 \
     PROFILES=eea.kitkat:default
 
+COPY /etc/zope.ini /app/etc/
 COPY --from=builder /wheelhouse /wheelhouse
 
 RUN ./bin/pip install --no-index --no-deps /wheelhouse/* \
