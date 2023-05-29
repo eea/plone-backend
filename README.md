@@ -69,7 +69,7 @@ Below is an example on how to build a custom version of Plone with some add-ons 
 
     eea.facetednavigation==16.0a1
     collective.elasticsearch==5.0.0
-    collective.taxonomy==3.0.1
+    collective.taxonomy==3.1
 
 
 **Dockerfile**:

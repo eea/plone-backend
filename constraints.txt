@@ -10,9 +10,8 @@ python-memcached==1.59
 eea.kitkat==5.0
 
 # Required by eea.kitkat
-collective.taxonomy==3.0.1
+collective.taxonomy==3.1
 eea.api.layout==3.2
-eea.api.taxonomy==1.5
 eea.banner==1.4
 eea.coremetadata==3.1
 eea.geolocation==2.5
