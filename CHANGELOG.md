@@ -1,6 +1,41 @@
 # Changelog
 
 
+## [6.0.5-1](https://github.com/eea/plone-backend/releases/tag/6.0.5-1) - 2023-05-30T23:12:46Z
+
+### Plone
+
+#### Upgrade 6.0.3 ~ 6.0.5 
+
+* Plone [6.0.5](https://plone.org/download/releases/6.0.5)
+* Plone [6.0.4](https://plone.org/download/releases/6.0.4)
+
+### Dependency updates
+
+##### [Babel](https://pypi.org/project/Babel/#changelog): 2.11.0 ~ 2.12.1
+
+##### [selenium](https://pypi.org/project/selenium/#changelog): 4.8.3 ~ 4.9.0
+
+##### [z3c.jbot](https://pypi.org/project/z3c.jbot/#changelog): 1.1.1 ~ 2.0
+
+### Internal
+
+- Add eea.graylogger to backend. - [Petchesi-Iulian -  [`fd47022`](https://github.com/eea/plone-backend/commit/fd470228aafe9489ace7dd84987c6c95d8d3336c)]
+- Add eea.graylogger to requirements. - [Petchesi-Iulian -  [`f02f65d`](https://github.com/eea/plone-backend/commit/f02f65d14def573d6adc33d953d869bc4cabee87)]
+- Pin eea.graylogger version - [Petchesi-Iulian -  [`84eec4a`](https://github.com/eea/plone-backend/commit/84eec4a7c9ea6f6fe1789c54cb4ddf93ba36afc5)]
+- Use latest eea.graylogger version. - [Petchesi-Iulian -  [`0f14c1c`](https://github.com/eea/plone-backend/commit/0f14c1c8cac15b4b9eb25a06b3813ee5b6fd0ce5)]
+- Merge branch 'master' of https://github.com/eea/plone-backend into plone6_249331 - [Petchesi-Iulian -  [`d10245a`](https://github.com/eea/plone-backend/commit/d10245ae67a64d1a437dcd0e64730a60a8434fb6)]
+- Use latest grapy version. - [Petchesi-Iulian -  [`15356ed`](https://github.com/eea/plone-backend/commit/15356edbefc3e4119ad46f0574a94dcaf4ee82d2)]
+- Use latest grapy version. - [Petchesi-Iulian -  [`21620c1`](https://github.com/eea/plone-backend/commit/21620c1d5efb780f9a528d0e6f4184ec594cf378)]
+- Use latest grapy version. - [Petchesi-Iulian -  [`662ec27`](https://github.com/eea/plone-backend/commit/662ec27ed60b986f6daf9474259537b281f13c9b)]
+- Use grapy 3.2.0 - [Petchesi-Iulian -  [`3dc4006`](https://github.com/eea/plone-backend/commit/3dc400613facb058e2296f6f5bc60278fd518489)]
+- Add amqp to requirements. - [Petchesi-Iulian -  [`03e9d6c`](https://github.com/eea/plone-backend/commit/03e9d6c056544938bef083c99d049bf30d0b8a69)]
+- Merge branch 'master' into plone6_249331 - [Alin Voinea -  [`bb0fa66`](https://github.com/eea/plone-backend/commit/bb0fa660eac0cffe84297cbd7fd737512b765111)]
+- Merge branch 'master' into plone6_249331 - [Alin Voinea -  [`c5281cd`](https://github.com/eea/plone-backend/commit/c5281cd6e7493464bc2d811c0cf98e798c39f014)]
+- Merge branch 'master' into plone6_249331 - [alin -  [`82a4acb`](https://github.com/eea/plone-backend/commit/82a4acb0ca824ebb81d62f5ea5bf4f8ebac52bfb)]
+- Upgrade to Plone 6.0.5 - [alin -  [`e958a77`](https://github.com/eea/plone-backend/commit/e958a77d5fb005f558abc61f9b546ef997152f29)]
+- Merge branch 'plone6_249331' - [alin -  [`dcbe7bb`](https://github.com/eea/plone-backend/commit/dcbe7bb12e3b3bb33c8b0acb30c100b8c917c720)]
+
 ## [6.0.4-1](https://github.com/eea/plone-backend/releases/tag/6.0.4-1) - 2023-05-25T23:13:38Z
 
 ### Dependency updates
