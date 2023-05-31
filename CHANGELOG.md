@@ -1,6 +1,15 @@
 # Changelog
 
 
+## [6.0.5-2](https://github.com/eea/plone-backend/releases/tag/6.0.5-2) - 2023-05-31T23:13:01Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 5.0 ~ 6.0
+
+
+
+
 ## [6.0.5-1](https://github.com/eea/plone-backend/releases/tag/6.0.5-1) - 2023-05-30T23:12:46Z
 
 ### Plone
