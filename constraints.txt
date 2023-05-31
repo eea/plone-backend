@@ -7,7 +7,7 @@ python-ldap==3.4.3
 python-memcached==1.59
 
 # EEA KitKat bundle
-eea.kitkat==5.0
+eea.kitkat==6.0
 
 # Required by eea.kitkat
 collective.taxonomy==3.1
