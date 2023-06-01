@@ -1,6 +1,22 @@
 # Changelog
 
 
+## [6.0.5-3](https://github.com/eea/plone-backend/releases/tag/6.0.5-3) - 2023-06-01T16:51:24Z
+
+### Dependency updates
+
+##### [collective.taxonomy](https://pypi.org/project/collective.taxonomy/#changelog): 3.0.1 ~ 3.1
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 6.0 ~ 6.1
+
+* Bug fix: Hide Footer Login action if user is logged-in
+  [avoinea - refs #253198]
+
+### Internal
+
+- refactor: upgrade collective.taxonomy, remove eea.api.taxonomy - refs #145360 - [Nilesh -  [`1cb0dca`](https://github.com/eea/plone-backend/commit/1cb0dcaa15630dba712ee93c6a414e9568d20347)]
+- refactor: upgrade collective.taxonomy, remove eea.api.taxonomy - refs #145360 - [Nilesh -  [`344e581`](https://github.com/eea/plone-backend/commit/344e581b4e7877b7257a0cd52af35e352c2378f5)]
+
 ## [6.0.5-2](https://github.com/eea/plone-backend/releases/tag/6.0.5-2) - 2023-05-31T23:13:01Z
 
 ### Dependency updates
