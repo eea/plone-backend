@@ -1,6 +1,19 @@
 # Changelog
 
 
+## [6.0.5-4](https://github.com/eea/plone-backend/releases/tag/6.0.5-4) - 2023-06-06T23:12:25Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 6.1 ~ 6.2
+
+* Change: View comments permission only for authenticated
+  [dobri1408 - refs #251360]
+
+### Internal
+
+- Add container access/event log handlers. - [Petchesi-Iulian -  [`4b7a55d`](https://github.com/eea/plone-backend/commit/4b7a55d465e319201b8cba5a9e5bc73a36ce602c)]
+
 ## [6.0.5-3](https://github.com/eea/plone-backend/releases/tag/6.0.5-3) - 2023-06-01T16:51:24Z
 
 ### Dependency updates
