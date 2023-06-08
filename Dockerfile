@@ -6,7 +6,7 @@ ENV PLONE_VERSION=6.0.5 \
     GRAYLOG_FACILITY=plone-backend \
     MEMCACHE_SERVER=memcached:11211 \
     RELSTORAGE_BLOB_CACHE_SIZE=2000mb \
-    ZODB_CACHE_SIZE=1000000 \
+    ZODB_CACHE_SIZE=250000 \
     PROFILES=eea.kitkat:default
 
 RUN apt-get update \
@@ -24,7 +24,7 @@ ENV PLONE_VERSION=6.0.5 \
     GRAYLOG_FACILITY=plone-backend \
     MEMCACHE_SERVER=memcached:11211 \
     RELSTORAGE_BLOB_CACHE_SIZE=2000mb \
-    ZODB_CACHE_SIZE=1000000 \
+    ZODB_CACHE_SIZE=250000 \
     PROFILES=eea.kitkat:default
 
 COPY /etc/zope.ini /app/etc/
