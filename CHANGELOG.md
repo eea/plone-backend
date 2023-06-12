@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [6.0.5-6](https://github.com/eea/plone-backend/releases/tag/6.0.5-6) - 2023-06-12T23:14:06Z
+
+### Dependency updates
+
+##### [eea.graylogger](https://pypi.org/project/eea.graylogger/#changelog): 2.3 ~ 2.4
+
+
 ## [6.0.5-5](https://github.com/eea/plone-backend/releases/tag/6.0.5-5) - 2023-06-08T23:14:11Z
 
 ### Internal
