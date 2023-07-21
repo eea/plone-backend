@@ -13,7 +13,7 @@ eea.kitkat==6.2
 collective.taxonomy==3.1
 eea.api.layout==3.2
 eea.banner==1.4
-eea.coremetadata==3.1
+eea.coremetadata==3.2
 eea.geolocation==2.5
 eea.schema.slate==1.2
 eea.sentry==3.0
