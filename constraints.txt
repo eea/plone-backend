@@ -21,7 +21,9 @@ eea.volto.policy==2.3
 eea.zotero==1.4
 eea.graylogger==2.4
 
-# Required by collective.exportimport
+# Custom release on: https://eggrepo.eea.europa.eu/d/collective.exportimport/
+# Branch: https://github.com/collective/collective.exportimport/tree/eea-release
+# To be updated to PyPI version after https://github.com/collective/collective.exportimport/pull/215 is merged and released
 collective.exportimport==1.10rc1
 
 # Picked versions
