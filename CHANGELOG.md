@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [6.0.5-9](https://github.com/eea/plone-backend/releases/tag/6.0.5-9) - 2023-07-31T23:13:33Z
+
+### Dependency updates
+
+##### [collective.exportimport](https://pypi.org/project/collective.exportimport/#changelog): 1.10rc1 ~ 1.10rc2
+
+### Internal
+
+- Release collective.exportimport==1.10.rc2 - [Alin Voinea -  [`18301c5`](https://github.com/eea/plone-backend/commit/18301c553f9915e7d1920b21e513429540db519d)]
+- Container access log: WARN - [Alin Voinea -  [`4438caf`](https://github.com/eea/plone-backend/commit/4438caf0bf5d4de89b44b5875817fae5c57d4ee2)]
+
 ## [6.0.5-8](https://github.com/eea/plone-backend/releases/tag/6.0.5-8) - 2023-07-31T12:37:47Z
 
 ### Dependency updates
