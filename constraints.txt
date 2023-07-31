@@ -22,7 +22,7 @@ eea.zotero==1.4
 eea.graylogger==2.4
 
 # Required by collective.exportimport
-collective.exportimport==1.9
+collective.exportimport==1.10rc1
 
 # Picked versions
 amqp==5.1.1
