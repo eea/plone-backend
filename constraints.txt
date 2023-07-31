@@ -23,8 +23,11 @@ eea.graylogger==2.4
 
 # Custom release on: https://eggrepo.eea.europa.eu/d/collective.exportimport/
 # Branch: https://github.com/collective/collective.exportimport/tree/eea-release
-# To be updated to PyPI version after https://github.com/collective/collective.exportimport/pull/215 is merged and released
-collective.exportimport==1.10rc1
+# To be updated to PyPI version after:
+# - https://github.com/collective/collective.exportimport/pull/215
+# - https://github.com/collective/collective.exportimport/pull/217
+# are merged and released
+collective.exportimport==1.10rc2
 
 # Picked versions
 amqp==5.1.1
