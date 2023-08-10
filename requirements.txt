@@ -1,3 +1,4 @@
+pas.plugins.authomatic
 pas.plugins.ldap
 collective.exportimport
 eea.kitkat
