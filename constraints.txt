@@ -83,7 +83,7 @@ typing-extensions==4.5.0
 vine==5.0.0
 wrapt==1.15.0
 wsproto==1.2.0
-yafowil.plone==4.0.0a5
+yafowil.plone==4.0.0a6.dev0
 yafowil.widget.array==1.7
 yafowil.widget.dict==1.8
 yafowil.yaml==2.0
