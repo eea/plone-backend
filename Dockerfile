@@ -1,7 +1,7 @@
-FROM plone/plone-backend:6.0.5 as base
+FROM plone/plone-backend:6.0.6 as base
 FROM base as builder
 
-ENV PLONE_VERSION=6.0.5 \
+ENV PLONE_VERSION=6.0.6 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
     MEMCACHE_SERVER=memcached:11211 \
@@ -19,7 +19,7 @@ RUN pip wheel -r requirements.txt -c constraints.txt -c https://dist.plone.org/r
 
 FROM base
 
-ENV PLONE_VERSION=6.0.5 \
+ENV PLONE_VERSION=6.0.6 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
     MEMCACHE_SERVER=memcached:11211 \
