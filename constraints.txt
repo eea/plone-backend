@@ -2,7 +2,7 @@
 
 # Plone pluggable authentication services
 pas.plugins.authomatic==1.1.2
-pas.plugins.ldap==1.8.2
+pas.plugins.ldap==1.8.3.dev0
 pas.plugins.oidc==1.4
 python-ldap==3.4.3
 python-memcached==1.59
