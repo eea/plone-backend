@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.6-2](https://github.com/eea/plone-backend/releases/tag/6.0.6-2) - 2023-08-18T23:15:08Z
+
+### Internal
+
+- chore: Fix sources.ini pushurl - [valentinab25 -  [`7a3a4e6`](https://github.com/eea/plone-backend/commit/7a3a4e60c0e4799d1678f417665db9d5aee963c8)]
+
 ## [6.0.5-9](https://github.com/eea/plone-backend/releases/tag/6.0.5-9) - 2023-07-31T23:13:33Z
 
 ### Dependency updates
