@@ -2,7 +2,7 @@
 
 # Plone pluggable authentication services
 pas.plugins.authomatic==1.1.2
-pas.plugins.ldap==1.8.3.dev0
+pas.plugins.ldap==1.8.3.dev1
 pas.plugins.oidc==1.4
 python-ldap==3.4.3
 python-memcached==1.59
@@ -89,7 +89,7 @@ typing-extensions==4.5.0
 vine==5.0.0
 wrapt==1.15.0
 wsproto==1.2.0
-yafowil.plone==4.0.0a6.dev0
+yafowil.plone==4.0.0a6.dev1
 yafowil.widget.array==1.7
 yafowil.widget.dict==1.8
 yafowil.yaml==2.0
