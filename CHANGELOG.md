@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.6-4](https://github.com/eea/plone-backend/releases/tag/6.0.6-4) - 2023-08-30T23:21:38Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 2.3 ~ 3.0
+
+* Feature: Add image_scales to catalog and update list of scales to registry
+  [nileshgulia1 - refs #254889]
+
+
 ## [6.0.6-3](https://github.com/eea/plone-backend/releases/tag/6.0.6-3) - 2023-08-25T23:15:48Z
 
 ### Dependency updates
