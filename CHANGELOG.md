@@ -1,6 +1,19 @@
 # Changelog
 
 
+## [6.0.6-6](https://github.com/eea/plone-backend/releases/tag/6.0.6-6) - 2023-10-16T23:15:21Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 3.2 ~ 3.4
+
+* Fix: Fix data_provenance indexer
+  [avoinea - refs #258077]
+
+* Change: Release
+  [avoinea]
+
+
 ## [6.0.6-5](https://github.com/eea/plone-backend/releases/tag/6.0.6-5) - 2023-08-31T23:16:17Z
 
 ### Dependency updates
