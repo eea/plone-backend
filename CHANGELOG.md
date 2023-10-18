@@ -1,6 +1,88 @@
 # Changelog
 
 
+## [6.0.7-1](https://github.com/eea/plone-backend/releases/tag/6.0.7-1) - 2023-10-18T23:21:12Z
+
+### Plone
+
+#### Upgrade 6.0.6 ~ 6.0.7 
+
+* Plone [6.0.7](https://plone.org/download/releases/6.0.7)
+
+### Dependency updates
+
+##### [MarkupSafe](https://pypi.org/project/MarkupSafe/#changelog): 2.1.2 ~ 2.1.3
+
+##### [annotated-types](https://pypi.org/project/annotated-types/#changelog): 0.5.0 ~ 0.6.0
+
+##### [collective.exportimport](https://pypi.org/project/collective.exportimport/#changelog): 1.10rc2 ~ 1.10
+
+##### [cryptography](https://pypi.org/project/cryptography/#changelog): 41.0.1 ~ 41.0.3
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 6.2 ~ 7.0
+
+* Breaking: Remove pas.plugin.oidc dependency
+  [avoinea - refs #258877]
+
+##### [exceptiongroup](https://pypi.org/project/exceptiongroup/#changelog): 1.1.1 ~ 1.1.2
+
+##### [greenlet](https://pypi.org/project/greenlet/#changelog): 2.0.2 ~ 3.0.0
+
+##### [pas.plugins.ldap](https://pypi.org/project/pas.plugins.ldap/#changelog): 1.8.3.dev2 ~ 1.8.3.dev3
+
+##### [plone.app.robotframework](https://pypi.org/project/plone.app.robotframework/#changelog): 2.0.1 ~ 2.1.0
+
+##### [plone.testing](https://pypi.org/project/plone.testing/#changelog): 8.0.3 ~ 8.0.4
+
+##### [pycryptodomex](https://pypi.org/project/pycryptodomex/#changelog): 3.18.0 ~ 3.19.0
+
+##### [pydantic-core](https://pypi.org/project/pydantic-core/#changelog): 0.25.0 ~ 2.10.1
+
+##### [pydantic-settings](https://pypi.org/project/pydantic-settings/#changelog): 1.99 ~ 2.0.3
+
+##### [robotsuite](https://pypi.org/project/robotsuite/#changelog): 2.3.1 ~ 2.3.2
+
+##### [sentry-sdk](https://pypi.org/project/sentry-sdk/#changelog): 1.29.2 ~ 1.32.0
+
+##### [typing-extensions](https://pypi.org/project/typing-extensions/#changelog): 4.5.0 ~ 4.7.1
+
+##### [yafowil.plone](https://pypi.org/project/yafowil.plone/#changelog): 4.0.0a6.dev1 ~ 5.0.0a1
+
+##### [zope.testrunner](https://pypi.org/project/zope.testrunner/#changelog): 6.0 ~ 6.1
+
+#### New packages
+
+##### [backports.cached-property](https://pypi.org/project/backports.cached-property/#changelog): 1.0.2
+
+##### [grpcio](https://pypi.org/project/grpcio/#changelog): 1.54.2
+
+##### [grpcio-tools](https://pypi.org/project/grpcio-tools/#changelog): 1.54.2
+
+##### [overrides](https://pypi.org/project/overrides/#changelog): 7.3.1
+
+##### [protobuf](https://pypi.org/project/protobuf/#changelog): 4.23.1
+
+##### [robotframework-assertion-engine](https://pypi.org/project/robotframework-assertion-engine/#changelog): 1.0.0
+
+##### [robotframework-browser](https://pypi.org/project/robotframework-browser/#changelog): 16.2.0
+
+##### [yafowil.bootstrap](https://pypi.org/project/yafowil.bootstrap/#changelog): 2.0.0a1
+
+#### Removed packages
+
+##### [async-generator](https://pypi.org/project/async-generator/#changelog): 1.10
+
+##### [pas.plugins.oidc](https://pypi.org/project/pas.plugins.oidc/#changelog): 1.4
+
+### Internal
+
+- Release collective.exportimport 1.10 - [Alin Voinea -  [`11743ff`](https://github.com/eea/plone-backend/commit/11743ff0bc34a53f4b43617e64b67cbfcf88cac8)]
+- Release plone/plone-backend 6.0.7 - [Alin Voinea -  [`bc56ed7`](https://github.com/eea/plone-backend/commit/bc56ed75564a56dbde3b8da03e9863f658f858ea)]
+- Release yafowil.plone 5.0.0a1 - [Alin Voinea -  [`f7033ac`](https://github.com/eea/plone-backend/commit/f7033ac9af30ff9f033f5595d930c5cc8cb63715)]
+- Release pas.plugins.ldap 1.8.3.dev3 - [Alin Voinea -  [`b0149d2`](https://github.com/eea/plone-backend/commit/b0149d267e39041435d30dedfd1172d6df8e95a3)]
+- fix: Increase default ZOPE form mem limit from 4MB to 250MB - [Alin Voinea -  [`f694b9d`](https://github.com/eea/plone-backend/commit/f694b9db4cddf15da3a3e24585e2d47656ba36dd)]
+- fix: Increase default ZOPE form mem limit from 4MB to 250MB - [Alin Voinea -  [`203e449`](https://github.com/eea/plone-backend/commit/203e44923f5b13954aa86269e7dd37e46f8f3f32)]
+
 ## [6.0.6-6](https://github.com/eea/plone-backend/releases/tag/6.0.6-6) - 2023-10-16T23:15:21Z
 
 ### Dependency updates
