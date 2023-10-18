@@ -11,6 +11,7 @@ python-memcached==1.59
 eea.kitkat==6.2
 
 # Required by eea.kitkat
+collective.exportimport==1.10
 collective.taxonomy==3.1
 eea.api.layout==3.2
 eea.banner==1.4
@@ -21,14 +22,6 @@ eea.sentry==3.0
 eea.volto.policy==3.1
 eea.zotero==1.4
 eea.graylogger==2.4
-
-# Custom release on: https://eggrepo.eea.europa.eu/d/collective.exportimport/
-# Branch: https://github.com/collective/collective.exportimport/tree/eea-release
-# To be updated to PyPI version after:
-# - https://github.com/collective/collective.exportimport/pull/215
-# - https://github.com/collective/collective.exportimport/pull/217
-# are merged and released
-collective.exportimport==1.10rc2
 
 # Picked versions
 amqp==5.1.1
