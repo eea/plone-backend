@@ -26,6 +26,7 @@ ENV PLONE_VERSION=6.0.7 \
     MEMCACHE_SERVER=memcached:11211 \
     RELSTORAGE_BLOB_CACHE_SIZE=2000mb \
     ZODB_CACHE_SIZE=250000 \
+    ZOPE_FORM_MEMORY_LIMIT=250MB \
     PROFILES=eea.kitkat:default
 
 COPY /etc/zope.ini /app/etc/
