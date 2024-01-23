@@ -1,3 +1,4 @@
+eea.api.glossary
 pas.plugins.authomatic
 pas.plugins.ldap
 collective.exportimport
