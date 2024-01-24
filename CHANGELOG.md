@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.7-4](https://github.com/eea/plone-backend/releases/tag/6.0.7-4) - 2024-01-24T00:10:31Z
+
+### Dependency updates
+
+#### New packages
+
+##### [eea.api.glossary](https://pypi.org/project/eea.api.glossary/#changelog): 1.1
+
+### Internal
+
+- Added eea.api.glossary - [Claudia Ifrim -  [`caa6d6e`](https://github.com/eea/plone-backend/commit/caa6d6e16ee4d2a6c687b1701b5a647d5caad7f9)]
+
 ## [6.0.7-3](https://github.com/eea/plone-backend/releases/tag/6.0.7-3) - 2024-01-10T00:10:03Z
 
 ### Dependency updates
