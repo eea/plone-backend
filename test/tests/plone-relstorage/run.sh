@@ -10,8 +10,8 @@ PLONE_TEST_TRIES=10
 
 # Start Postgres
 zname="relstorage-container-$RANDOM-$RANDOM"
-zpull="$(docker pull postgres:9-alpine)"
-zid="$(docker run -d --name "$zname" -e POSTGRES_USER=plone -e POSTGRES_PASSWORD=plone -e POSTGRES_DB=plone postgres:9-alpine)"
+zpull="$(docker pull postgres:12-alpine)"
+zid="$(docker run -d --name "$zname" -e POSTGRES_USER=plone -e POSTGRES_PASSWORD=plone -e POSTGRES_DB=plone postgres:12-alpine)"
 
 # Start Plone as RelStorage Client
 pname="plone-container-$RANDOM-$RANDOM"
