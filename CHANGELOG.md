@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.9-3](https://github.com/eea/plone-backend/releases/tag/6.0.9-3) - 2024-03-06T00:10:21Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 3.4 ~ 3.5
+
+* Feature: Expose rights field as metadata
+  [dobri1408 - refs #159551]
+
+
 ## [6.0.9-2](https://github.com/eea/plone-backend/releases/tag/6.0.9-2) - 2024-02-29T00:11:37Z
 
 ### Dependency updates
