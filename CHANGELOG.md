@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.10-5](https://github.com/eea/plone-backend/releases/tag/6.0.10-5) - 2024-04-03T23:12:25Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 3.5 ~ 3.6
+
+* Change: Develop
+  [alecghica]
+
+
 ## [6.0.10-3](https://github.com/eea/plone-backend/releases/tag/6.0.10-3) - 2024-03-26T00:11:40Z
 
 ### Dependency updates
