@@ -23,7 +23,7 @@ eea.zotero==1.4
 eea.graylogger==2.4
 
 # Required by freshwater-backend
-eea.api.glossary==1.1
+eea.api.glossary==1.2
 
 # Picked versions
 amqp==5.2.0
