@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.10-8](https://github.com/eea/plone-backend/releases/tag/6.0.10-8) - 2024-05-09T23:11:40Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 8.0 ~ 8.1
+
+* Change: Develop
+  [alecghica]
+
+
 ## [6.0.10-7](https://github.com/eea/plone-backend/releases/tag/6.0.10-7) - 2024-04-16T23:11:21Z
 
 ### Dependency updates
