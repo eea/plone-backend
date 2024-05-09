@@ -7,7 +7,7 @@ python-ldap==3.4.4
 python-memcached==1.62
 
 # EEA KitKat bundle
-eea.kitkat==8.0
+eea.kitkat==8.1
 
 # Required by eea.kitkat
 collective.exportimport==1.12
