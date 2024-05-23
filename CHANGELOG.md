@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.11-2](https://github.com/eea/plone-backend/releases/tag/6.0.11-2) - 2024-05-23T23:12:34Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 4.0 ~ 4.1
+
+* Bug fix: Fix teaserGrid to gridBlock to transaction.commit every 100 items
+  [avoinea - refs #265726]
+
+
 ## [6.0.11-1](https://github.com/eea/plone-backend/releases/tag/6.0.11-1) - 2024-05-20T23:11:56Z
 
 ### Plone
