@@ -1,7 +1,7 @@
 -f https://eggrepo.eea.europa.eu/simple/
 
 # Plone pluggable authentication services
-pas.plugins.authomatic==1.2.1.dev1
+pas.plugins.authomatic==1.2.1.dev2
 pas.plugins.ldap==1.8.3.dev3
 python-ldap==3.4.4
 python-memcached==1.62
