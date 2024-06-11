@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [6.0.11-4](https://github.com/eea/plone-backend/releases/tag/6.0.11-4) - 2024-06-11T23:17:11Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 4.1 ~ 5.0
+
+* Breaking: Requires `plone.volto >= 4.1.0`
+* Change: Add upgrade step to add block_types index to the Plone catalog
+  [avoinea - refs #271233]
+
+
 ## [6.0.11-3](https://github.com/eea/plone-backend/releases/tag/6.0.11-3) - 2024-06-03T23:16:55Z
 
 ### Dependency updates
