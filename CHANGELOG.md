@@ -1,6 +1,20 @@
 # Changelog
 
 
+## [6.0.11-11](https://github.com/eea/plone-backend/releases/tag/6.0.11-11) - 2024-08-19T23:12:38Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 5.1 ~ 5.2
+
+* Feature: Check for permissions when serializing restricted blocks
+  [razvanMiu - refs #273963]
+* Feature: Customized context navigation endpoint to filter portal_type
+  [ichim-david - refs #270999]
+* Fix: Depth of context navigation endpoint by passing depth parameter
+  [ichim-david - refs #270999]
+
+
 ## [6.0.11-10](https://github.com/eea/plone-backend/releases/tag/6.0.11-10) - 2024-07-31T23:11:27Z
 
 ### Internal
