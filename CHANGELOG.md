@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.11-12](https://github.com/eea/plone-backend/releases/tag/6.0.11-12) - 2024-08-23T23:32:47Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 5.2 ~ 5.3
+
+* Change: Develop
+  [tiberiuichim]
+
+
 ## [6.0.11-11](https://github.com/eea/plone-backend/releases/tag/6.0.11-11) - 2024-08-19T23:12:38Z
 
 ### Dependency updates
