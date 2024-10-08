@@ -1,7 +1,7 @@
-FROM plone/plone-backend:6.0.11.1 as base
+FROM plone/plone-backend:6.0.13 as base
 FROM base as builder
 
-ENV PLONE_VERSION=6.0.11.1 \
+ENV PLONE_VERSION=6.0.13 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
     MEMCACHE_SERVER=memcached:11211 \
@@ -20,7 +20,7 @@ RUN pip wheel -r requirements.txt -c constraints.txt -c https://dist.plone.org/r
 
 FROM base
 
-ENV PLONE_VERSION=6.0.11.1 \
+ENV PLONE_VERSION=6.0.13 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
     MEMCACHE_SERVER=memcached:11211 \
@@ -36,12 +36,8 @@ RUN ./bin/pip install --no-index --no-deps /wheelhouse/* \
     && find /app -not -user plone -exec chown plone:plone {} \+
 
 # Custom versions, to be removed after Plone version upgrade
-# https://taskman.eionet.europa.eu/issues/272819
 # https://taskman.eionet.europa.eu/issues/277938
-# https://taskman.eionet.europa.eu/issues/278170
-RUN ./bin/pip install plone.namedfile==6.3.1 \
- && ./bin/pip install Products.CMFCore==3.6 \
- && ./bin/pip install plone.volto==4.4.3
+RUN ./bin/pip install Products.CMFCore==3.6
 
 ENTRYPOINT [ "/app/docker-entrypoint.sh" ]
 CMD ["start"]
