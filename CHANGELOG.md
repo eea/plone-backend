@@ -1,6 +1,20 @@
 # Changelog
 
 
+## [6.0.11-14](https://github.com/eea/plone-backend/releases/tag/6.0.11-14) - 2024-10-08T11:23:50Z
+
+### Internal
+
+- Pinned Products.CMFCore to version 3.6 - [Alexandru Ghica -  [`cb431ab`](https://github.com/eea/plone-backend/commit/cb431ab9019670d34ea2e0706a26b69711f88168)]
+- Update requirements.txt - [Alexandru Ghica -  [`b0edbab`](https://github.com/eea/plone-backend/commit/b0edbab923ef2cb8723ee3d36f5adc2dfc1ae013)]
+- Revert "Update requirements.txt"
+
+This reverts commit b0edbab923ef2cb8723ee3d36f5adc2dfc1ae013. - [alin -  [`3e65d11`](https://github.com/eea/plone-backend/commit/3e65d11e1359c135cb10d00228283c52054663b8)]
+- Revert "Pinned Products.CMFCore to version 3.6"
+
+This reverts commit cb431ab9019670d34ea2e0706a26b69711f88168. - [alin -  [`3a39d74`](https://github.com/eea/plone-backend/commit/3a39d74dc642de814b48a98cdc122189e0a68c5d)]
+- Upgrade to Products.CMFCore 3.6 to fix sharing issues - refs #277938 - [alin -  [`0adc80c`](https://github.com/eea/plone-backend/commit/0adc80cdc206731ecb58f0be428446fdc08fd55c)]
+
 ## [6.0.11-13](https://github.com/eea/plone-backend/releases/tag/6.0.11-13) - 2024-10-04T09:33:01Z
 
 ### Dependency updates
