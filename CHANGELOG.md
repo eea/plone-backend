@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.11-15](https://github.com/eea/plone-backend/releases/tag/6.0.11-15) - 2024-10-08T15:37:11Z
+
+### Internal
+
+- Upgrade to plone.volto 4.4.3 in order to fix #278170 - [alin -  [`4f8a79b`](https://github.com/eea/plone-backend/commit/4f8a79b93b75c63c4012270f9adecef22d68b784)]
+
 ## [6.0.11-14](https://github.com/eea/plone-backend/releases/tag/6.0.11-14) - 2024-10-08T11:23:50Z
 
 ### Internal
