@@ -2,6 +2,7 @@ eea.api.glossary
 pas.plugins.authomatic
 pas.plugins.ldap
 collective.exportimport
+collective.regenv
 eea.kitkat
 mxdev
 eea.graylogger
