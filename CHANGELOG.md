@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.13-4](https://github.com/eea/plone-backend/releases/tag/6.0.13-4) - 2024-10-17T23:12:30Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 4.3 ~ 5.1
+
+* Fix: disable other_organisations behavior on all content types
+  [laszlocseh]
+
+
 ## [6.0.13-3](https://github.com/eea/plone-backend/releases/tag/6.0.13-3) - 2024-10-15T23:11:21Z
 
 ### Dependency updates
