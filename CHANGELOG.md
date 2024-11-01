@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.13-6](https://github.com/eea/plone-backend/releases/tag/6.0.13-6) - 2024-11-01T00:10:25Z
+
+### Internal
+
+- Release plone.restapi 9.8.2 - refs #278606 - [alin -  [`52f62e1`](https://github.com/eea/plone-backend/commit/52f62e155b4c3f3c1870f3ecc46b13e7ecd35d1c)]
+
 ## [6.0.13-5](https://github.com/eea/plone-backend/releases/tag/6.0.13-5) - 2024-10-18T23:13:27Z
 
 ### Dependency updates
