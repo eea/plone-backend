@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.13-8](https://github.com/eea/plone-backend/releases/tag/6.0.13-8) - 2024-11-14T00:10:44Z
+
+### Dependency updates
+
+##### [pas.plugins.ldap](https://pypi.org/project/pas.plugins.ldap/#changelog): 1.8.3.dev3 ~ 1.8.3
+
+### Internal
+
+- Release pas.plugins.ldap 1.8.3 - [Alin Voinea -  [`2abae20`](https://github.com/eea/plone-backend/commit/2abae20c9f7d6883f84d39e8bf87b01cf91d1401)]
+
 ## [6.0.13-7](https://github.com/eea/plone-backend/releases/tag/6.0.13-7) - 2024-11-07T00:09:59Z
 
 ### Internal
