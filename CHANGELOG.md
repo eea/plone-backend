@@ -1,6 +1,20 @@
 # Changelog
 
 
+## [6.0.13-11](https://github.com/eea/plone-backend/releases/tag/6.0.13-11) - 2024-12-12T00:11:47Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 6.0 ~ 6.1
+
+* Fix: large query on context navigation when on layout or add new item.
+  We return no results when we have the `Additional files` variation set
+  since it has potential to have a very large number of items.
+  [ichim-david - refs #280463]
+* Feature: Add `Language` querystring field in order to be able to filter by language in Search block
+  [avoinea - refs #281503]
+
+
 ## [6.0.13-10](https://github.com/eea/plone-backend/releases/tag/6.0.13-10) - 2024-12-05T20:03:34Z
 
 ### Dependency updates
