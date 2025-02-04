@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.13-13](https://github.com/eea/plone-backend/releases/tag/6.0.13-13) - 2025-02-04T15:16:41Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 6.2 ~ 6.3
+
+* Fix: Context Navigation root_path extract from root_node
+  [avoinea - refs #283961]
+* Change: Fix Serializer HTML
+  [dobri1408 - refs #282435]
+
+
 ## [6.0.13-12](https://github.com/eea/plone-backend/releases/tag/6.0.13-12) - 2025-01-30T18:45:51Z
 
 ### Dependency updates
