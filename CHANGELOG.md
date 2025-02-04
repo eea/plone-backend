@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.13-14](https://github.com/eea/plone-backend/releases/tag/6.0.13-14) - 2025-02-04T16:04:55Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 6.3 ~ 6.4
+
+* Fix: HTML, Slate serializer for resolveuid images
+  [avoinea - refs #282435]
+
+
 ## [6.0.13-13](https://github.com/eea/plone-backend/releases/tag/6.0.13-13) - 2025-02-04T15:16:41Z
 
 ### Dependency updates
