@@ -1,6 +1,20 @@
 # Changelog
 
 
+## [6.0.13-15](https://github.com/eea/plone-backend/releases/tag/6.0.13-15) - 2025-02-18T00:11:56Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 6.4 ~ 7.0
+
+* Feature: Improve plone.restapi controlpanel to check cp permissions
+  [razvanMiu - ref #282173]
+* Fix: Link getRemoteUrl for anonymous users when used as part of global navigation
+  [ichim-david - refs #284346]
+* Fix: navigation layer registration
+  [tiberiuichim]
+
+
 ## [6.0.13-14](https://github.com/eea/plone-backend/releases/tag/6.0.13-14) - 2025-02-04T16:04:55Z
 
 ### Dependency updates
