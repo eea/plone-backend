@@ -38,7 +38,8 @@ RUN ./bin/pip install --no-index --no-deps /wheelhouse/* \
 # Custom versions, to be removed after Plone version upgrade
 # https://taskman.eionet.europa.eu/issues/277938
 # https://taskman.eionet.europa.eu/issues/278606
-RUN ./bin/pip install Products.CMFCore==3.6 plone.restapi==9.8.4
+# https://taskman.eionet.europa.eu/issues/278645
+RUN ./bin/pip install Products.CMFCore==3.6 plone.restapi==9.8.4 Products.CMFEditions==4.0.5
 
 ENTRYPOINT [ "/app/docker-entrypoint.sh" ]
 CMD ["start"]
