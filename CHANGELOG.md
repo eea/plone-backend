@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [6.0.13-16](https://github.com/eea/plone-backend/releases/tag/6.0.13-16) - 2025-02-28T15:46:55Z
+
+### Internal
+
+- Install Products.CMFEditions==4.0.5 - refs #278645 - [Alin Voinea -  [`f9be383`](https://github.com/eea/plone-backend/commit/f9be3838d591f0e180ea02dc4b29d6b500310003)]
+- fix: Latest setuptool release 75.8.1 break Plone builds - refs #285008 - [alin -  [`4dbf8e2`](https://github.com/eea/plone-backend/commit/4dbf8e2725360e6a370c1e13f16994c9206bc224)]
+- setuptool workaround
+
+refs #285008 - [Alexandru Ghica -  [`51bb5d4`](https://github.com/eea/plone-backend/commit/51bb5d4936d9094d96fcb4ccca77608bdd7a9953)]
+- revert - [Alexandru Ghica -  [`dd9c0e4`](https://github.com/eea/plone-backend/commit/dd9c0e4740aa24f54fc7eae3377f145095adfd44)]
+
 ## [6.0.13-15](https://github.com/eea/plone-backend/releases/tag/6.0.13-15) - 2025-02-18T00:11:56Z
 
 ### Dependency updates
