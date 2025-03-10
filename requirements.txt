@@ -1,5 +1,6 @@
 eea.api.glossary
 pas.plugins.authomatic
+pas.plugins.eea
 pas.plugins.ldap
 collective.exportimport
 collective.regenv
