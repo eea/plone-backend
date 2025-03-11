@@ -1,6 +1,20 @@
 # Changelog
 
 
+## [6.0.13-17](https://github.com/eea/plone-backend/releases/tag/6.0.13-17) - 2025-03-11T00:10:45Z
+
+### Dependency updates
+
+##### [pas.plugins.authomatic](https://pypi.org/project/pas.plugins.authomatic/#changelog): 1.2.1.dev3 ~ 1.4.0
+
+#### New packages
+
+##### [pas.plugins.eea](https://pypi.org/project/pas.plugins.eea/#changelog): 1.1
+
+### Internal
+
+- feat: added pas.plugins.eea - refs #281898 - [Alexandru Ghica -  [`25b08d2`](https://github.com/eea/plone-backend/commit/25b08d232d01243e1b8f20eb46e3dd427083cb8d)]
+
 ## [6.0.13-16](https://github.com/eea/plone-backend/releases/tag/6.0.13-16) - 2025-02-28T15:46:55Z
 
 ### Internal
