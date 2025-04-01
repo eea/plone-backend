@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.13-20](https://github.com/eea/plone-backend/releases/tag/6.0.13-20) - 2025-04-01T23:12:51Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 7.0 ~ 7.1
+
+* Change: Make upgrade step for svg update more efficent - refs #276995
+  [avoinea]
+
+
 ## [6.0.13-19](https://github.com/eea/plone-backend/releases/tag/6.0.13-19) - 2025-03-13T00:11:24Z
 
 ### Dependency updates
