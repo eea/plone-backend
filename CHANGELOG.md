@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.0.15-3](https://github.com/eea/plone-backend/releases/tag/6.0.15-3) - 2025-04-13T23:10:54Z
+
+### Dependency updates
+
+#### New packages
+
+##### [pas.plugins.authomatic](https://pypi.org/project/pas.plugins.authomatic/#changelog): 2.0.0rc3
+
+### Internal
+
+- Release pas.plugins.authomatic 2.0.0rc3 - [alin -  [`6c9e42b`](https://github.com/eea/plone-backend/commit/6c9e42b009bbf8cf008030023dbeee56ff9e1ebe)]
+
 ## [6.0.15-2](https://github.com/eea/plone-backend/releases/tag/6.0.15-2) - 2025-04-11T15:33:41Z
 
 ### Dependency updates
