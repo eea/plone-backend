@@ -22,14 +22,15 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          # username: ${{ secrets.DOCKERHUB_USERNAME }}
+          username: eeacms
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Determine Docker tag
-        id: vars
-        run: |
-          VERSION=${GITHUB_REF#refs/tags/}
-          echo "version=$VERSION" >> $GITHUB_ENV
+      # - name: Determine Docker tag
+      #   id: vars
+      #   run: |
+      #     VERSION=${GITHUB_REF#refs/tags/}
+      #     echo "version=$VERSION" >> $GITHUB_ENV
 
       - name: Build and push Docker image (ARM)
         uses: docker/build-push-action@v6
@@ -38,6 +39,8 @@ jobs:
           platforms: linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.version }}-arm64
-            ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest-arm64
+            # ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.version }}-arm64
+            # ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest-arm64
+            eeacms/${{ env.IMAGE_NAME }}:latest-arm64
+
           no-cache: true
