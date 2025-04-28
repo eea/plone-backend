@@ -35,5 +35,9 @@ COPY --from=builder /wheelhouse /wheelhouse
 RUN ./bin/pip install --no-index --no-deps /wheelhouse/* \
     && find /app -not -user plone -exec chown plone:plone {} \+
 
+# Custom versions, to be removed after Plone version upgrade
+# https://taskman.eionet.europa.eu/issues/287071
+RUN ./bin/pip install plone.restapi==9.13.5
+
 ENTRYPOINT [ "/app/docker-entrypoint.sh" ]
 CMD ["start"]
