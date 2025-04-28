@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.15-6](https://github.com/eea/plone-backend/releases/tag/6.0.15-6) - 2025-04-28T15:40:22Z
+
+### Internal
+
+- Update release_arm64.yml - [Eduard Fironda -  [`3d9a41f`](https://github.com/eea/plone-backend/commit/3d9a41fb0bcb6d10528b0b3f3a6d967544ab5214)]
+
 ## [6.0.15-5](https://github.com/eea/plone-backend/releases/tag/6.0.15-5) - 2025-04-28T09:17:08Z
 
 ### Internal
