@@ -1,6 +1,24 @@
 # Changelog
 
 
+## [6.0.15-7](https://github.com/eea/plone-backend/releases/tag/6.0.15-7) - 2025-04-30T23:11:27Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.1 ~ 5.3
+
+* Bug fix: Fix creators_fullname and contributors_fullname metadata
+  [avoinea - refs #284007]
+
+* Feature: Expose creators_fullname and contributors_fullname as read-only metadata
+  [tedw87 - refs #284007]
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 7.1 ~ 7.2
+
+* Feature: Add email field to Users vocabulary
+  [tedw87 - refs #274362]
+
+
 ## [6.0.15-6](https://github.com/eea/plone-backend/releases/tag/6.0.15-6) - 2025-04-28T15:40:22Z
 
 ### Internal
