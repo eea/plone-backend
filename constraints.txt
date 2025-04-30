@@ -16,7 +16,7 @@ collective.exportimport==1.12
 collective.taxonomy==3.1
 eea.api.layout==3.2
 eea.banner==1.4
-eea.coremetadata==5.2
+eea.coremetadata==5.3
 eea.geolocation==2.6
 eea.schema.slate==1.2
 eea.sentry==3.0
