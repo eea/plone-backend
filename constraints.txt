@@ -11,7 +11,7 @@ python-memcached==1.62
 eea.kitkat==8.1
 
 # Required by eea.kitkat
-collective.regenv==1.0.0
+collective.regenv==1.0.1dev2
 collective.exportimport==1.12
 collective.taxonomy==3.1
 eea.api.layout==3.2
