@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.15-9](https://github.com/eea/plone-backend/releases/tag/6.0.15-9) - 2025-05-27T08:41:01Z
+
+### Internal
+
+- chore: [JENKINS] remove debug - [valentinab25 -  [`120747d`](https://github.com/eea/plone-backend/commit/120747d888aafb924da8483e0e7d86b97bdd3802)]
+
 ## [6.0.15-8](https://github.com/eea/plone-backend/releases/tag/6.0.15-8) - 2025-05-21T13:17:37Z
 
 ### Dependency updates
