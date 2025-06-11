@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [6.0.15-11](https://github.com/eea/plone-backend/releases/tag/6.0.15-11) - 2025-06-11T17:53:08Z
+
+### Dependency updates
+
+##### [eea.api.glossary](https://pypi.org/project/eea.api.glossary/#changelog): 1.2 ~ 1.5
+
+
 ## [6.0.15-10](https://github.com/eea/plone-backend/releases/tag/6.0.15-10) - 2025-06-03T13:44:49Z
 
 ### Dependency updates
