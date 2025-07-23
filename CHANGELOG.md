@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [6.0.15-12](https://github.com/eea/plone-backend/releases/tag/6.0.15-12) - 2025-07-23T23:08:45Z
+
+### Dependency updates
+
+##### [pas.plugins.eea](https://pypi.org/project/pas.plugins.eea/#changelog): 1.4 ~ 1.5
+
+
 ## [6.0.15-11](https://github.com/eea/plone-backend/releases/tag/6.0.15-11) - 2025-06-11T17:53:08Z
 
 ### Dependency updates
