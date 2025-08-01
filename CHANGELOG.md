@@ -1,6 +1,19 @@
 # Changelog
 
 
+## [6.0.15-13](https://github.com/eea/plone-backend/releases/tag/6.0.15-13) - 2025-08-01T23:08:47Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 7.2 ~ 8.0
+
+* Create method to update all backend:8080 to resolveuid
+  [dobri1408 - refs #290024]
+* Feature: added migration script for `item`, `teaser` and `hero`
+  to new attachedimage array of object like object_browser widget
+  [ichim-david refs #254622]
+
+
 ## [6.0.15-12](https://github.com/eea/plone-backend/releases/tag/6.0.15-12) - 2025-07-23T23:08:45Z
 
 ### Dependency updates
