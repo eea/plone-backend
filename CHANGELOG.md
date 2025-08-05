@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.15-15](https://github.com/eea/plone-backend/releases/tag/6.0.15-15) - 2025-08-05T23:09:05Z
+
+### Internal
+
+- the username is not eeacms - [valentinab25 -  [`38093a9`](https://github.com/eea/plone-backend/commit/38093a9f5222ec3642c79fb65ebf12e836da7009)]
+
 ## [6.0.15-14](https://github.com/eea/plone-backend/releases/tag/6.0.15-14) - 2025-08-05T07:48:33Z
 
 ### Dependency updates
