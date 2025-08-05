@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.15-14](https://github.com/eea/plone-backend/releases/tag/6.0.15-14) - 2025-08-05T07:48:33Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.0 ~ 8.1
+
+* Change: fix(upgrade): for images, allowing also to run @@image-migrate script
+  [ichim-david]
+
+
 ## [6.0.15-13](https://github.com/eea/plone-backend/releases/tag/6.0.15-13) - 2025-08-01T23:08:47Z
 
 ### Dependency updates
