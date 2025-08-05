@@ -22,8 +22,7 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v3
         with:
-          # username: ${{ secrets.DOCKERHUB_USERNAME }}
-          username: eeacms
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       # - name: Determine Docker tag
