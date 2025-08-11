@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.15-16](https://github.com/eea/plone-backend/releases/tag/6.0.15-16) - 2025-08-11T23:08:25Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.1 ~ 8.2
+
+* Change: Release with an older python 3 version
+  [valentinab25]
+
+
 ## [6.0.15-15](https://github.com/eea/plone-backend/releases/tag/6.0.15-15) - 2025-08-05T23:09:05Z
 
 ### Internal
