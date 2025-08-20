@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.0.15-18](https://github.com/eea/plone-backend/releases/tag/6.0.15-18) - 2025-08-20T23:08:58Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.3 ~ 8.4
+
+* Change: feat: Control Navigation Settings TTW - refs #288509
+  [avoinea]
+
+
 ## [6.0.15-17](https://github.com/eea/plone-backend/releases/tag/6.0.15-17) - 2025-08-20T15:28:09Z
 
 ### Dependency updates
