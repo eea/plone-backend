@@ -12,7 +12,8 @@ ENV PLONE_VERSION=6.0.15 \
 
 RUN apt-get update \
     && buildDeps="build-essential libldap2-dev libsasl2-dev" \
-    && apt-get install -y --no-install-recommends $buildDeps\
+    && apt-get install -y --no-install-recommends $buildDeps \
+    && apt-get install -y --only-upgrade libxml2 libxml2-dev \
     && rm -rf /var/lib/apt/lists/* /usr/share/doc
 
 COPY requirements.txt constraints.txt /app/
@@ -28,6 +29,11 @@ ENV PLONE_VERSION=6.0.15 \
     ZODB_CACHE_SIZE=250000 \
     ZOPE_FORM_MEMORY_LIMIT=250MB \
     PROFILES=eea.kitkat:default
+
+# Fix libxml2 CVE vulnerabilities
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends --only-upgrade libxml2 libxml2-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 COPY /etc/zope.ini /app/etc/
 COPY --from=builder /wheelhouse /wheelhouse
