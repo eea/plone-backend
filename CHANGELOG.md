@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.0.15-20](https://github.com/eea/plone-backend/releases/tag/6.0.15-20) - 2025-10-23T23:10:35Z
+
+### Internal
+
+- fix: security CVE vulnerability on lib2xml - [nileshgulia1 -  [`f7b734c`](https://github.com/eea/plone-backend/commit/f7b734c11b574ee0018c26864e4ce5e44001eb89)]
+
 ## [6.0.15-19](https://github.com/eea/plone-backend/releases/tag/6.0.15-19) - 2025-10-08T16:33:50Z
 
 ### Dependency updates
