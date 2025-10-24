@@ -1,6 +1,25 @@
 # Changelog
 
 
+## [6.0.15-20](https://github.com/eea/plone-backend/releases/tag/6.0.15-20) - 2025-10-23T23:10:35Z
+
+### Internal
+
+- fix: security CVE vulnerability on lib2xml - [nileshgulia1 -  [`f7b734c`](https://github.com/eea/plone-backend/commit/f7b734c11b574ee0018c26864e4ce5e44001eb89)]
+
+## [6.0.15-19](https://github.com/eea/plone-backend/releases/tag/6.0.15-19) - 2025-10-08T16:33:50Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 8.4 ~ 9.0
+
+* Fix: teaser block serializer to not clear href for non-http urls
+  [ichim-david - refs #292589]
+* Breaking: drop testing for Plone 5 that used plone.restapi 8.x
+  Version 8 was deprecated in 2023
+  [ichim-david - refs #292589]
+
+
 ## [6.0.15-18](https://github.com/eea/plone-backend/releases/tag/6.0.15-18) - 2025-08-20T23:08:58Z
 
 ### Dependency updates
