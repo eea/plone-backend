@@ -8,7 +8,7 @@ python-ldap==3.4.4
 python-memcached==1.62
 
 # EEA KitKat bundle
-eea.kitkat==8.1
+eea.kitkat==8.2
 
 # Required by eea.kitkat
 collective.regenv==1.0.0
