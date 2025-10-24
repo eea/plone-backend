@@ -1,6 +1,21 @@
 # Changelog
 
 
+## [6.0.15-21](https://github.com/eea/plone-backend/releases/tag/6.0.15-21) - 2025-10-24T23:12:31Z
+
+### Dependency updates
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 8.1 ~ 8.2
+
+* Change: Fix: use plone.volto:default profile instead of default-homepage
+  [nileshgulia1]
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 9.0 ~ 9.1
+
+* Fix: tests for Plone 5
+  [ichim-david - refs #292589]
+
+
 ## [6.0.15-20](https://github.com/eea/plone-backend/releases/tag/6.0.15-20) - 2025-10-23T23:10:35Z
 
 ### Internal
