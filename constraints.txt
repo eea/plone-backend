@@ -13,7 +13,7 @@ eea.kitkat==8.2
 # Required by eea.kitkat
 collective.regenv==1.0.0
 collective.exportimport==1.12
-collective.taxonomy==3.1
+collective.taxonomy==3.1.7
 eea.api.controlpanel==1.1
 eea.api.layout==3.2
 eea.banner==1.4
