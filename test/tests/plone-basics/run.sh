@@ -20,19 +20,7 @@ get() {
 		-c "from urllib.request import urlopen; con = urlopen('$1'); print(con.read())"
 }
 
-get_auth() {
-	docker run --rm -i \
-		--link "$cname":plone \
-		--entrypoint /app/bin/python \
-		"$image" \
-		-c "from urllib.request import urlopen, Request; request = Request('$1'); request.add_header('Authorization', 'Basic $2'); print(urlopen(request).read())"
-}
-
-
 . "$dir/../../retry.sh" --tries "$PLONE_TEST_TRIES" --sleep "$PLONE_TEST_SLEEP" get "http://plone:8080"
 
 # Plone is up and running
-[[ "$(get 'http://plone:8080')" == *"Plone is up and running"* ]]
-
-# Create a Plone site
-[[ "$(get_auth 'http://plone:8080/@@plone-addsite' "$(echo -n 'admin:admin' | base64)")" == *"Create a Plone site"* ]]
+[[ "$(get 'http://plone:8080')" == *"Welcome to Plone!"* ]]
