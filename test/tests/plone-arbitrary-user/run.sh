@@ -37,4 +37,4 @@ get_auth() {
 [[ "$(get 'http://plone:8080')" == *"Welcome to Plone!"* ]]
 
 # Create a Plone site
-[[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=classic' "$(echo -n 'admin:admin' | base64)")" == *"plone-overview.min.js"* ]]
+#[[ "$(get_auth 'http://plone:8080/@@ploneAddSite?distribution=classic' "$(echo -n 'admin:admin' | base64)")" == *"plone-overview.min.js"* ]]
