@@ -1,6 +1,64 @@
 # Changelog
 
 
+## [6.1.3-1](https://github.com/eea/plone-backend/releases/tag/6.1.3-1) - 2025-10-28T00:12:39Z
+
+### Plone
+
+#### Upgrade 6.0.15 ~ 6.1.3 
+
+* Plone [6.1.3](https://plone.org/download/releases/6.1.3)
+* Plone [6.1.2](https://plone.org/download/releases/6.1.2)
+* Plone [6.1.1](https://plone.org/download/releases/6.1.1)
+* Plone [6.1.1rc2](https://plone.org/download/releases/6.1.1rc2)
+* Plone [6.1.1rc1](https://plone.org/download/releases/6.1.1rc1)
+* Plone [6.1.0](https://plone.org/download/releases/6.1.0)
+* Plone [6.1.0rc1](https://plone.org/download/releases/6.1.0rc1)
+* Plone [6.1.0b2](https://plone.org/download/releases/6.1.0b2)
+* Plone [6.1.0b1](https://plone.org/download/releases/6.1.0b1)
+* Plone [6.1.0a5](https://plone.org/download/releases/6.1.0a5)
+* Plone [6.1.0a4](https://plone.org/download/releases/6.1.0a4)
+* Plone [6.1.0a3](https://plone.org/download/releases/6.1.0a3)
+* Plone [6.1.0a2](https://plone.org/download/releases/6.1.0a2)
+* Plone [6.1.0a1](https://plone.org/download/releases/6.1.0a1)
+* Plone [6.1.0a1.dev0](https://plone.org/download/releases/6.1.0a1.dev0)
+
+### Dependency updates
+
+##### [dnspython](https://pypi.org/project/dnspython/#changelog): 2.7.0 ~ 2.8.0
+
+##### [eventlet](https://pypi.org/project/eventlet/#changelog): 0.39.1 ~ 0.40.3
+
+##### [greenlet](https://pypi.org/project/greenlet/#changelog): 3.1.1 ~ 3.2.4
+
+##### [ijson](https://pypi.org/project/ijson/#changelog): 3.3.0 ~ 3.4.0
+
+##### [yafowil.plone](https://pypi.org/project/yafowil.plone/#changelog): 5.0.0a2 ~ 5.0.0
+
+##### [z3c.jbot](https://pypi.org/project/z3c.jbot/#changelog): 2.0 ~ 3.1
+
+#### Downgrades 
+
+##### [collective.taxonomy](https://pypi.org/project/collective.taxonomy/#changelog): 3.1 ~ 3.1.7
+
+#### New packages
+
+##### [requests-futures](https://pypi.org/project/requests-futures/#changelog): 1.0.2
+
+##### [sentry.sdk](https://pypi.org/project/sentry.sdk/#changelog): 2.42.1
+
+#### Removed packages
+
+##### [pyasn1](https://pypi.org/project/pyasn1/#changelog): 0.4.2
+
+##### [pyasn1-modules](https://pypi.org/project/pyasn1-modules/#changelog): 0.4.2
+
+##### [sentry-sdk](https://pypi.org/project/sentry-sdk/#changelog): 1.45.0
+
+### Internal
+
+- feat: Upgrade to plone 6.1.3 - [Nilesh -  [`8c4663f`](https://github.com/eea/plone-backend/commit/8c4663f623dfce260c8917f025aed1907705bdd5)]
+
 ## [6.0.15-21](https://github.com/eea/plone-backend/releases/tag/6.0.15-21) - 2025-10-24T23:12:31Z
 
 ### Dependency updates
