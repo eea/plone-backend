@@ -1,6 +1,15 @@
 # Changelog
 
 
+## [6.1.3-2](https://github.com/eea/plone-backend/releases/tag/6.1.3-2) - 2025-10-29T00:11:12Z
+
+### Internal
+
+- chore(dev): use Plone 6.1.3 in dev environments - [nileshgulia1 -  [`5357f4e`](https://github.com/eea/plone-backend/commit/5357f4e82fbd3a95ab28be14ba6a5cc0ace806c7)]
+- fix: provide more retries time - [nileshgulia1 -  [`a409531`](https://github.com/eea/plone-backend/commit/a409531778238b04f36be8fbd63ca7ad835a79a0)]
+- fix(flaky-tests): provide more retries in tests - [nileshgulia1 -  [`ea12247`](https://github.com/eea/plone-backend/commit/ea12247f43adc81b12a8d4886ab508b329314af6)]
+- fix(flaky-tests): more tests - [nileshgulia1 -  [`fc467af`](https://github.com/eea/plone-backend/commit/fc467afe0f927320b8759afaaca8842282103acf)]
+
 ## [6.1.3-1](https://github.com/eea/plone-backend/releases/tag/6.1.3-1) - 2025-10-28T00:12:39Z
 
 ### Plone
