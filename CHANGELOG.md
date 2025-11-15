@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.1.3-3](https://github.com/eea/plone-backend/releases/tag/6.1.3-3) - 2025-11-15T00:12:54Z
+
+### Dependency updates
+
+##### [eea.api.controlpanel](https://github.com/eea/eea.api.controlpanel/releases): 1.1 ~ 1.2
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+
 ## [6.1.3-2](https://github.com/eea/plone-backend/releases/tag/6.1.3-2) - 2025-10-29T00:11:12Z
 
 ### Internal
