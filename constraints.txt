@@ -15,7 +15,7 @@ collective.regenv==1.0.0
 collective.exportimport==1.12
 collective.taxonomy==3.1.7
 eea.api.controlpanel==1.2
-eea.api.layout==3.2
+eea.api.layout==3.3
 eea.banner==1.4
 eea.coremetadata==5.3
 eea.geolocation==2.6
