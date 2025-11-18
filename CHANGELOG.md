@@ -1,6 +1,77 @@
 # Changelog
 
 
+## [6.1.3-4](https://github.com/eea/plone-backend/releases/tag/6.1.3-4) - 2025-11-18T15:53:12Z
+
+### Dependency updates
+
+##### [eea.api.controlpanel](https://github.com/eea/eea.api.controlpanel/releases): 1.2 ~ 1.3
+
+* Change: Release
+  [avoinea]
+
+##### [eea.api.glossary](https://pypi.org/project/eea.api.glossary/#changelog): 1.5 ~ 1.6
+
+##### [eea.api.layout](https://github.com/eea/eea.api.layout/releases): 3.2 ~ 3.3
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+##### [eea.banner](https://github.com/eea/eea.banner/releases): 1.4 ~ 1.5
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+##### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.6 ~ 2.7
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+##### [eea.kitkat](https://github.com/eea/eea.kitkat/releases): 8.2 ~ 8.3
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+##### [eea.schema.slate](https://github.com/eea/eea.schema.slate/releases): 1.2 ~ 1.3
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+##### [eea.sentry](https://github.com/eea/eea.sentry/releases): 3.0 ~ 3.1
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 9.1 ~ 9.2
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+##### [eea.zotero](https://github.com/eea/eea.zotero/releases): 1.4 ~ 1.5
+
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
+### Internal
+
+- fix: Plone upgrades steps from 6.0.15 to 6.1.3 - refs #288125 - [Alin Voinea -  [`33ab97d`](https://github.com/eea/plone-backend/commit/33ab97d0ea7aa73347273e1f512e488efb27db37)]
+
 ## [6.1.3-3](https://github.com/eea/plone-backend/releases/tag/6.1.3-3) - 2025-11-15T00:12:54Z
 
 ### Dependency updates
