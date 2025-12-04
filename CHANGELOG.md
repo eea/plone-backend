@@ -1,6 +1,23 @@
 # Changelog
 
 
+## [6.1.3-7](https://github.com/eea/plone-backend/releases/tag/6.1.3-7) - 2025-12-04T18:07:18Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 9.3 ~ 10.0
+
+###### What's Changed
+* Advanced restricted block by @tedw87 in https://github.com/eea/eea.volto.policy/pull/88
+* Release 10.0 by @avoinea in https://github.com/eea/eea.volto.policy/pull/89
+
+
+**Full Changelog**: https://github.com/eea/eea.volto.policy/compare/9.3...10.0
+
+### Internal
+
+- Release eea.volto.policy 10.0 - [Alin Voinea -  [`505df34`](https://github.com/eea/plone-backend/commit/505df34459a3c50cf98ad63cdc4a6abe6f6c9c70)]
+
 ## [6.1.3-6](https://github.com/eea/plone-backend/releases/tag/6.1.3-6) - 2025-11-19T15:22:22Z
 
 ### Dependency updates
