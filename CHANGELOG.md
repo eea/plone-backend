@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.3-8](https://github.com/eea/plone-backend/releases/tag/6.1.3-8) - 2025-12-22T00:13:19Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 10.0 ~ 11.0
+
+* Feature: Inheritable fields, for example inherit preview_image from parent if context doesn't have a preview_image
+  [razvanMiu - refs #295495]
+
+
 ## [6.1.3-7](https://github.com/eea/plone-backend/releases/tag/6.1.3-7) - 2025-12-04T18:07:18Z
 
 ### Dependency updates
