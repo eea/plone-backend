@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.3-9](https://github.com/eea/plone-backend/releases/tag/6.1.3-9) - 2025-12-22T09:24:59Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 11.0 ~ 11.1
+
+* Fix: Handle NoInteraction during inherited field lookup in indexing
+  [avoinea - refs #295495]
+
+
 ## [6.1.3-8](https://github.com/eea/plone-backend/releases/tag/6.1.3-8) - 2025-12-22T00:13:19Z
 
 ### Dependency updates
