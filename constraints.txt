@@ -13,7 +13,12 @@ eea.kitkat==8.3
 # Required by eea.kitkat
 collective.regenv==1.0.0
 collective.exportimport==1.15
-collective.taxonomy==3.1.7
+
+# https://taskman.eionet.europa.eu/issues/285635
+# To be updated on a stable release when PR is merged
+# https://github.com/collective/collective.taxonomy/pull/172
+collective.taxonomy==3.1.8dev1
+
 eea.api.controlpanel==1.3
 eea.api.layout==3.3
 eea.banner==1.5
