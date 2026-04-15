@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.3-18](https://github.com/eea/plone-backend/releases/tag/6.1.3-18) - 2026-04-15T23:13:18Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.4 ~ 5.5
+
+* Change: Add unit tests for seq_strip and tuplize functions
+  [avoinea]
+
+
 ## [6.1.3-17](https://github.com/eea/plone-backend/releases/tag/6.1.3-17) - 2026-04-14T23:12:22Z
 
 ### Dependency updates
