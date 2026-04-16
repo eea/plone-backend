@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.3-19](https://github.com/eea/plone-backend/releases/tag/6.1.3-19) - 2026-04-16T23:15:14Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.0 ~ 12.1
+
+* Change: Change header defaults
+  [razvanMiu]
+
+
 ## [6.1.3-18](https://github.com/eea/plone-backend/releases/tag/6.1.3-18) - 2026-04-15T23:13:18Z
 
 ### Dependency updates
