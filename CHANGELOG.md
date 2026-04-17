@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.3-20](https://github.com/eea/plone-backend/releases/tag/6.1.3-20) - 2026-04-17T23:12:37Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.1 ~ 12.2
+
+* Change: update default registry
+  [razvanMiu]
+
+
 ## [6.1.3-19](https://github.com/eea/plone-backend/releases/tag/6.1.3-19) - 2026-04-16T23:15:14Z
 
 ### Dependency updates
