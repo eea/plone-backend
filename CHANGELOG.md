@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.3-21](https://github.com/eea/plone-backend/releases/tag/6.1.3-21) - 2026-04-21T23:11:51Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.2 ~ 12.3
+
+* Change: Rename header settings control panel and add @layout-blocks-duplicates endpoint
+  [razvanMiu]
+
+
 ## [6.1.3-20](https://github.com/eea/plone-backend/releases/tag/6.1.3-20) - 2026-04-17T23:12:37Z
 
 ### Dependency updates
