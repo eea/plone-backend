@@ -1,7 +1,7 @@
-FROM plone/plone-backend:6.1.3 as base
-FROM base as builder
+FROM plone/plone-backend:6.1.4 AS base
+FROM base AS builder
 
-ENV PLONE_VERSION=6.1.3 \
+ENV PLONE_VERSION=6.1.4 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
     MEMCACHE_SERVER=memcached:11211 \
@@ -21,7 +21,7 @@ RUN pip wheel -r requirements.txt -c constraints.txt -c https://dist.plone.org/r
 
 FROM base
 
-ENV PLONE_VERSION=6.1.3 \
+ENV PLONE_VERSION=6.1.4 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
     GRAYLOG_FACILITY=plone-backend \
     MEMCACHE_SERVER=memcached:11211 \
@@ -41,9 +41,8 @@ COPY --from=builder /wheelhouse /wheelhouse
 RUN ./bin/pip install --no-index --no-deps /wheelhouse/* \
     && find /app -not -user plone -exec chown plone:plone {} \+
 
-# Custom versions, to be removed after Plone version upgrade
-# https://taskman.eionet.europa.eu/issues/288125?#note-42
-RUN ./bin/pip install plone.app.upgrade==3.3.1
+# Plone security advisory 20260302
+RUN ./bin/pip install Products.isurlinportal==3.1.0
 
 ENTRYPOINT [ "/app/docker-entrypoint.sh" ]
 CMD ["start"]
