@@ -1,5 +1,5 @@
-FROM plone/plone-backend:6.1.4 as base
-FROM base as builder
+FROM plone/plone-backend:6.1.4 AS base
+FROM base AS builder
 
 ENV PLONE_VERSION=6.1.4 \
     GRAYLOG=logcentral.eea.europa.eu:12201 \
@@ -40,6 +40,9 @@ COPY --from=builder /wheelhouse /wheelhouse
 
 RUN ./bin/pip install --no-index --no-deps /wheelhouse/* \
     && find /app -not -user plone -exec chown plone:plone {} \+
+
+# Plone security advisory 20260302
+RUN ./bin/pip install Products.isurlinportal==3.1.0
 
 ENTRYPOINT [ "/app/docker-entrypoint.sh" ]
 CMD ["start"]
