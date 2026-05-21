@@ -1,6 +1,23 @@
 # Changelog
 
 
+## [6.1.4-3](https://github.com/eea/plone-backend/releases/tag/6.1.4-3) - 2026-05-21T23:11:51Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.4 ~ 12.6
+
+* Fix: Restore Plone 5.2 / Plone 6 compatibility for Scripts/Styles viewlets
+  (try scripts/styles modules, fall back to resource)
+  [valipod]
+
+* Fix: Point Scripts/Styles viewlets to their split modules (.scripts/.styles)
+  [valipod]
+
+### Internal
+
+- undo  Release eea.volto.policy 12.5 - [valentinab25 -  [`64cbda6`](https://github.com/eea/plone-backend/commit/64cbda678c004c2ed6a14b29fab9dc69b075d59f)]
+
 ## [6.1.4-2](https://github.com/eea/plone-backend/releases/tag/6.1.4-2) - 2026-04-29T14:33:09Z
 
 ### Dependency updates
