@@ -36,6 +36,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 COPY /etc/zope.ini /app/etc/
+COPY /etc/zodbpack.conf /app/etc/zodbpack.conf
 COPY --from=builder /wheelhouse /wheelhouse
 
 RUN ./bin/pip install --no-index --no-deps /wheelhouse/* \
