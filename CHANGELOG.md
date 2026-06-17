@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6) - 2026-06-17T23:11:05Z
+
+### Dependency updates
+
+##### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 2.8 ~ 3.0
+
+* New: Add EEA40 member states group (EEA38 + Ukraine + Moldova) to
+  geotags taxonomy. Includes upgrade step for existing sites and
+  updated VDEX profile for new installations.
+  [avoinea - refs #304772]
+
+
 ## [6.1.4-4](https://github.com/eea/plone-backend/releases/tag/6.1.4-4) - 2026-05-26T23:10:45Z
 
 ### Dependency updates
