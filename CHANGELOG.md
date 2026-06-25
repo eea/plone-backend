@@ -1,6 +1,38 @@
 # Changelog
 
 
+## [6.1.4-7](https://github.com/eea/plone-backend/releases/tag/6.1.4-7) - 2026-06-25T14:56:15Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 5.5 ~ 6.0
+
+* Feature: Add IGeoCoverageField marker interface on geo_coverage field
+  for scoped serializer adapter registration in eea.volto.policy
+  [avoinea - refs #296992]
+
+##### [eea.geolocation](https://github.com/eea/eea.geolocation/releases): 3.0 ~ 4.0
+
+* Feature: Add grouped geographic coverage helper methos
+  [tedw87 - refs #296992]
+* Change: Drop Python 2.7 and Plone 4 support.
+  [avoinea - refs #296992]
+* Fix: Replace lossy latin-1 encoding with explicit PATH_SEPARATOR stripping
+  in taxonomy value normalization
+  [avoinea - refs #296992]
+* Feature: Add RAM caching (plone.memoize) to geotags, biotags and country
+  mappings taxonomy parsing
+  [avoinea - refs #296992]
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 12.7 ~ 13.0
+
+* Feature: Scope geo_coverage serializer to IGeoCoverageField marker interface
+  instead of all JSON fields. Add eea.geolocation as explicit dependency.
+  [avoinea - refs #296992]
+* Feature: Serialize grouped geographic coverage
+  [tedw87 - refs #296992]
+
+
 ## [6.1.4-6](https://github.com/eea/plone-backend/releases/tag/6.1.4-6) - 2026-06-17T23:11:05Z
 
 ### Dependency updates
