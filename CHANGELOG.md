@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [6.1.4-9](https://github.com/eea/plone-backend/releases/tag/6.1.4-9) - 2026-07-07T12:22:25Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.0 ~ 13.1
+
+* Fix: Normalize internal backend URLs (e.g. backend:8080) saved in volto blocks
+  by SSR to avoid broken links. Add unit tests for URL normalizer.
+  [razvanMiu - refs #305419]
+
+
 ## [6.1.4-8](https://github.com/eea/plone-backend/releases/tag/6.1.4-8) - 2026-07-04T23:12:12Z
 
 ### Internal
