@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [6.1.4-10](https://github.com/eea/plone-backend/releases/tag/6.1.4-10) - 2026-07-10T23:14:05Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.1 ~ 13.2
+
+* Fix: Delegate to collective.exportimport's image serializers when one of its
+  export markers is present on the request.
+  [claudiaifrim - refs #304938]
+
+
 ## [6.1.4-9](https://github.com/eea/plone-backend/releases/tag/6.1.4-9) - 2026-07-07T12:22:25Z
 
 ### Dependency updates
