@@ -20,7 +20,7 @@ collective.exportimport==1.15
 collective.taxonomy==3.1.8dev1
 
 eea.api.controlpanel==1.4
-eea.api.layout==3.4
+eea.api.layout==3.5
 eea.banner==1.7
 eea.coremetadata==6.0
 eea.geolocation==4.0
