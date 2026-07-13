@@ -24,7 +24,7 @@ eea.api.layout==3.4
 eea.banner==1.7
 eea.coremetadata==6.0
 eea.geolocation==4.0
-eea.schema.slate==1.3
+eea.schema.slate==1.4
 eea.sentry==3.1
 eea.volto.policy==13.2
 eea.zotero==1.6
