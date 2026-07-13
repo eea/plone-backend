@@ -23,7 +23,7 @@ eea.api.controlpanel==1.4
 eea.api.layout==3.5
 eea.banner==1.8
 eea.coremetadata==6.1
-eea.geolocation==4.0
+eea.geolocation==4.1
 eea.schema.slate==1.4
 eea.sentry==3.2
 eea.volto.policy==13.3
