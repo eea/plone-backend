@@ -26,7 +26,7 @@ eea.coremetadata==6.1
 eea.geolocation==4.0
 eea.schema.slate==1.4
 eea.sentry==3.2
-eea.volto.policy==13.2
+eea.volto.policy==13.3
 eea.zotero==1.6
 eea.graylogger==2.4
 
