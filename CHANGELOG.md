@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.4-13](https://github.com/eea/plone-backend/releases/tag/6.1.4-13) - 2026-07-28T23:12:49Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 6.2 ~ 6.3
+
+* Change: Fix publication_type taxonomy vocabulary - refs #305522
+  [avoinea]
+
+
 ## [6.1.4-11](https://github.com/eea/plone-backend/releases/tag/6.1.4-11) - 2026-07-13T23:10:42Z
 
 ### Dependency updates
