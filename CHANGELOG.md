@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [6.1.4-14](https://github.com/eea/plone-backend/releases/tag/6.1.4-14) - 2026-08-05T23:17:32Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.3 ~ 13.4
+
+* Fix: Override ``@@download`` view to return 404 instead of TypeError (500)
+  when the content type has no primary file field.
+  [avoinea - refs #306552]
+
+
 ## [6.1.4-13](https://github.com/eea/plone-backend/releases/tag/6.1.4-13) - 2026-07-28T23:12:49Z
 
 ### Dependency updates
