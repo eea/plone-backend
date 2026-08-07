@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.4-15](https://github.com/eea/plone-backend/releases/tag/6.1.4-15) - 2026-08-07T08:46:41Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 6.3 ~ 6.4
+
+* Change: Release
+  [dobri1408]
+
+
 ## [6.1.4-14](https://github.com/eea/plone-backend/releases/tag/6.1.4-14) - 2026-08-05T23:17:32Z
 
 ### Dependency updates
