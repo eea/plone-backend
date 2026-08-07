@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [6.1.4-16](https://github.com/eea/plone-backend/releases/tag/6.1.4-16) - 2026-08-07T23:15:19Z
+
+### Internal
+
+- fix: arm64 image builds on github actions - [Alin Voinea -  [`35cd2ff`](https://github.com/eea/plone-backend/commit/35cd2ff11bafcc6b19b5fb2425903f94acbee89b)]
+
 ## [6.1.4-15](https://github.com/eea/plone-backend/releases/tag/6.1.4-15) - 2026-08-07T08:46:41Z
 
 ### Dependency updates
