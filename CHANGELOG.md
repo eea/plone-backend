@@ -1,6 +1,27 @@
 # Changelog
 
 
+## [6.1.4-17](https://github.com/eea/plone-backend/releases/tag/6.1.4-17) - 2026-08-18T23:13:59Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.4 ~ 13.6
+
+* Change: Release Move @siblings endpoint from eea.restapi to eea.volto.policy (#123)
+  [avoinea]
+
+* Change: Own the global ``plone.memoize`` cache chooser and its Redis,
+  Memcached, and RAM backends.
+  [razvanMiu]
+
+#### New packages
+
+##### [redis](https://pypi.org/project/redis/#changelog): 8.1.0
+
+### Internal
+
+- Add redis==8.1.0 - [Alin Voinea -  [`b3f4401`](https://github.com/eea/plone-backend/commit/b3f4401bf365e811a648ceaadade2426eda60049)]
+
 ## [6.1.4-16](https://github.com/eea/plone-backend/releases/tag/6.1.4-16) - 2026-08-07T23:15:19Z
 
 ### Internal
