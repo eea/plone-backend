@@ -8,4 +8,5 @@ eea.kitkat
 mxdev
 eea.graylogger
 amqp
+redis
 ZEO
