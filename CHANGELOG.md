@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [6.1.4-18](https://github.com/eea/plone-backend/releases/tag/6.1.4-18) - 2026-08-19T23:13:38Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.6 ~ 13.7
+
+* Fix: Apply ``CACHE_TTL`` consistently to the RAM fallback as well as Redis
+  and Memcached.
+  [razvanMiu]
+
+
 ## [6.1.4-17](https://github.com/eea/plone-backend/releases/tag/6.1.4-17) - 2026-08-18T23:13:59Z
 
 ### Dependency updates
