@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [6.1.4-19](https://github.com/eea/plone-backend/releases/tag/6.1.4-19) - 2026-09-18T13:16:27Z
+
+### Dependency updates
+
+##### [eea.coremetadata](https://github.com/eea/eea.coremetadata/releases): 6.4 ~ 6.5
+
+* Fix: Load Publication type values in listing block selection criteria.
+  Include an upgrade step to enable vocabulary fetching on existing sites.
+  [refs #305522]
+
+
 ## [6.1.4-18](https://github.com/eea/plone-backend/releases/tag/6.1.4-18) - 2026-08-19T23:13:38Z
 
 ### Dependency updates
