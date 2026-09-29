@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.4-21](https://github.com/eea/plone-backend/releases/tag/6.1.4-21) - 2026-09-29T12:15:32Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 13.8 ~ 13.9
+
+* Change: Release - Restore subsite expansion adapter for subsite_logo_main
+  [tedw87]
+
+
 ## [6.1.4-20](https://github.com/eea/plone-backend/releases/tag/6.1.4-20) - 2026-09-25T23:14:41Z
 
 ### Dependency updates
