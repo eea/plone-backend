@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [6.1.4-24](https://github.com/eea/plone-backend/releases/tag/6.1.4-24) - 2026-10-30T00:07:19Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 14.1 ~ 14.2
+
+* Feature: enrich serialized internal Image blocks with the permission-safe
+  live Image title, lazily classify legacy alt provenance, and remove the
+  transient title again during deserialization (issue #305021).
+  [razvanMiu]
+
+
 ## [6.1.4-23](https://github.com/eea/plone-backend/releases/tag/6.1.4-23) - 2026-10-01T23:13:30Z
 
 ### Dependency updates
