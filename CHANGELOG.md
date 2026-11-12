@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [6.1.6-2](https://github.com/eea/plone-backend/releases/tag/6.1.6-2) - 2026-11-12T00:05:54Z
+
+### Dependency updates
+
+##### [eea.volto.policy](https://github.com/eea/eea.volto.policy/releases): 14.2 ~ 14.3
+
+* Change: Support composed image metadata and alt provenance in image blocks - refs #305021
+  [razvanMiu]
+
+
 ## [6.1.6-1](https://github.com/eea/plone-backend/releases/tag/6.1.6-1) - 2026-11-10T19:44:51Z
 
 ### Plone
